@@ -151,20 +151,51 @@ letter-number combination will need to be entered.}
 
     \subsection {Game Task Set}
 
-    Casual game is one of the game categories with most players\cite{esa_ef_2014}, it is shown high potential in public gaming\cite{Jurgelionis:2011:PET:2027456.2027462,Reis:2012:EMC:2405577.2405651,Biskupski:2014:DEB:2559206.2580097}. We choose top 90 casual games\cite{TopGames} from existing platforms, including PC,console and mobile games (30 games for each) by crawling and analyzing the sale data and download count from famous gaming websites\cite{appannie,VGChartz,Steam,GameStop}. We invited 3 experienced game developer to review these top 90 casual games with us. We find out totally 26 game tasks, and we removed 9 tasks which only be used once in specific games. At last, we get a general casual game task set with 17 tasks, which can completely support 90\% of our top casual games. We describe our general casual game task set in table [?].
+    Casual game is one of the game categories with most players\cite{esa_ef_2014}, it is shown high potential in public gaming\cite{Jurgelionis:2011:PET:2027456.2027462,Reis:2012:EMC:2405577.2405651,Biskupski:2014:DEB:2559206.2580097}. We choose top 90 casual games\cite{TopGames} from existing platforms, including PC,console and mobile games (30 games for each) by crawling and analyzing the sale and download count data from famous gaming websites\cite{appannie,VGChartz,Steam,GameStop}. We invited 3 experienced game developer to review these top 90 casual games. They find out totally 26 game tasks, and removed 9 tasks which only be used once in specific games. At last, we get a general casual game task set with 17 tasks, which can completely support 90\% of our top casual games. We describe our general casual game task set in Table \ref{tab:table1}.
 
   \begin{table}
     \centering
-    \begin{tabular}{|c|c|c|}
+    \begin{tabular}{|c|l|l|}
       \hline
-      \tabhead{Task Name} &
-      \multicolumn{1}{|p{0.3\columnwidth}|}{\centering\tabhead{Caption --- pre-2002}} &
-      \multicolumn{1}{|p{0.4\columnwidth}|}{\centering\tabhead{Caption --- 2003 and afterwards}} \\
+      \tabhead{\#} &
+      \multicolumn{1}{|p{0.4\columnwidth}|}{\centering\tabhead{Description}} &
+      \multicolumn{1}{|p{0.4\columnwidth}|}{\centering\tabhead{Used in Famous Game}} \\
       \hline
-      Tables & Above & Below \\
+      1 & Single select & \\
       \hline
-      Figures & Below & Below \\
+      2 & Vertical menu selection & \\
       \hline
+      3 & Horizontal menu selection & \\
+      \hline
+      4 & Move left and right & \\
+      \hline
+      5 & Move in 4 directions & \\
+      \hline
+      6 & Switch 2 objects & \\
+      \hline
+      7 & Move object to position & \\
+      \hline
+      8 & Draw a path & \\
+      \hline
+      9 & Throw an object (in-2D) & \\
+      \hline
+      10 & Note highway & \\
+      \hline
+      11 & Rotate an object (Z-axis) & \\
+      \hline
+      12 & Rotate an object (Y-axis) & \\
+      \hline
+      13 & Avatar jump & \\
+      \hline
+      14 & Avatar 3D move & \\
+      \hline
+      15 & Avatar attack & \\
+      \hline
+      16 & Avatar squat & \\
+      \hline
+      17 & 3D Viewport control & \\
+      \hline
+
     \end{tabular}
     \caption{Summary of our general casual game task set.}
     \label{tab:table1}
