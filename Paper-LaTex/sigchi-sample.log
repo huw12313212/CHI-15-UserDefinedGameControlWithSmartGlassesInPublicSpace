@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  11 SEP 2014 22:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  12 SEP 2014 01:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -409,7 +409,7 @@ Missing character: There is no â in font ptmr7t!
 Missing character: There is no € in font ptmr7t!
 Missing character: There is no ™ in font ptmr7t!
 
-Overfull \hbox (1.54778pt too wide) in paragraph at lines 158--200
+Overfull \hbox (9.05556pt too wide) in paragraph at lines 158--200
  [][] 
  []
 
@@ -447,7 +447,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
 Here is how much of TeX's memory you used:
  6294 strings out of 493315
  90209 string characters out of 6137904
- 189520 words of memory out of 5000000
+ 198574 words of memory out of 5000000
  9594 multiletter control sequences out of 15000+600000
  30067 words of font info for 69 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -484,7 +484,7 @@ ist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2013/texmf-dist/fo
 nts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/
 urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/
 utmri8a.pfb>
-Output written on sigchi-sample.pdf (2 pages, 91105 bytes).
+Output written on sigchi-sample.pdf (2 pages, 92492 bytes).
 PDF statistics:
  235 PDF objects out of 1000 (max. 8388607)
  221 compressed objects within 3 object streams
