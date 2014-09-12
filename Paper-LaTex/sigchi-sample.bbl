@@ -17,6 +17,11 @@ Epps, J., Lichman, S., and Wu, M.
 \newblock In {\em CHI '06 Extended Abstracts on Human Factors in Computing
   Systems}, CHI EA '06, ACM (New York, NY, USA, 2006), 748--753.
 
+\bibitem{BT100}
+{Epson BT-100 Specs.}
+\newblock
+  \url{http://www.epson.com.au/products/ProjectorAccessories/Moverio_BT-100_specs.asp}.
+
 \bibitem{esa_ef_2014}
 {Essential Facts About The Computer And Video Game Industry}.
 \newblock \url{http://www.theesa.com/facts/pdfs/esa_ef_2014.pdf}.
@@ -30,6 +35,10 @@ Foley, J.D., v. D. A. F. S. H.~J.
 \bibitem{GameStop}
 {GameStop}.
 \newblock \url{http://www.gamestop.com}.
+
+\bibitem{GoogleGlass}
+{Google Glass wiki.}
+\newblock \url{http://en.wikipedia.org/wiki/Google_Glass#Features}.
 
 \bibitem{gulf}
 {Hutchins, E.L., Hollan, J.D., Norman, D.A.}
@@ -61,5 +70,11 @@ Reis, S.
 \bibitem{VGChartz}
 {VGChartz}.
 \newblock \url{http://www.vgchartz.com}.
+
+\bibitem{Wobbrock:2005:MGS:1056808.1057043}
+Wobbrock, J.~O., Aung, H.~H., Rothrock, B., and Myers, B.~A.
+\newblock Maximizing the guessability of symbolic input.
+\newblock In {\em CHI '05 Extended Abstracts on Human Factors in Computing
+  Systems}, CHI EA '05, ACM (New York, NY, USA, 2005), 1869--1872.
 
 \end{thebibliography}
