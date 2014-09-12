@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  12 SEP 2014 21:48
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  12 SEP 2014 22:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -451,28 +451,23 @@ Package pdftex.def Info: InAirControlArea.png used on input line 307.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<OnBodyForms.png, id=205, 1488.56125pt x 1059.96pt>
+<OnBodyForms.png, id=205, 1372.12625pt x 1033.8625pt>
 File: OnBodyForms.png Graphic file (type png)
  <use OnBodyForms.png>
 Package pdftex.def Info: OnBodyForms.png used on input line 315.
-(pdftex.def)             Requested size: 219.58264pt x 156.35083pt.
+(pdftex.def)             Requested size: 219.58264pt x 165.43715pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./sigchi-sample.bbl
-Overfull \vbox (3.65114pt too high) has occurred while \output is active []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
+(./sigchi-sample.bblpdfTeX warning (ext4): destination with the same identifier
+ (name{page.}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.54 
-      [3 <./InAirControlArea.png> <./OnBodyForms.png>])
+l.48 ...item{Jurgelionis:2011:PET:2027456.2027462}
+                                                   [3 <./InAirControlArea.png> 
+<./OnBodyForms.png>])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
-
-Overfull \vbox (1.17746pt too high) has occurred while \output is active []
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
@@ -494,7 +489,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
 Here is how much of TeX's memory you used:
  6332 strings out of 493315
  90896 string characters out of 6137904
- 193334 words of memory out of 5000000
+ 200342 words of memory out of 5000000
  9617 multiletter control sequences out of 15000+600000
  31709 words of font info for 71 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -533,7 +528,7 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigchi-sample.pdf (4 pages, 339542 bytes).
+Output written on sigchi-sample.pdf (4 pages, 320090 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  259 compressed objects within 3 object streams
