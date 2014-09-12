@@ -1,12 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  12 SEP 2014 21:01
-=======
-<<<<<<< HEAD
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.28)  12 SEP 2014 16:26
-=======
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  12 SEP 2014 20:33
->>>>>>> 181f813075bb7b5a68484af2e1d320ba6aec4c3a
->>>>>>> 3baef4be0eb9cf6a98e5e3c7de06e80d1d2c7835
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  12 SEP 2014 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -310,7 +302,11 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
 Package hyperref Info: Option `colorlinks' set `true' on input line 59.
 Package hyperref Info: Option `breaklinks' set `true' on input line 59.
 
-(./sigchi-sample.aux)
+(./sigchi-sample.aux
+
+LaTeX Warning: Label `fig:figureFamiliarity' multiply defined.
+
+)
 \openout1 = `sigchi-sample.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -328,8 +324,7 @@ LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 66.
-
-(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -436,100 +431,68 @@ Underfull \hbox (badness 1184) in paragraph at lines 250--251
 []\OT1/ptm/m/n/10 Our re-sults in-clude game con-trol tax-onomies, the user-
  []
 
-<<<<<<< HEAD
-=======
-
-Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 304.
-
-<<<<<<< HEAD
-<InAirporpotion.png, id=206, 1027.84pt x 770.88pt>
-File: InAirporpotion.png Graphic file (type png)
- <use InAirporpotion.png>
-Package pdftex.def Info: InAirporpotion.png used on input line 276.
-(pdftex.def)             Requested size: 219.58264pt x 164.67732pt.
-
-(./sigchi-sample.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 341.
-=======
-(./sigchi-sample.bbl
-
-Package balance Warning: You have called \balance in second column
-(balance)                Columns might not be balanced.
-
->>>>>>> 3baef4be0eb9cf6a98e5e3c7de06e80d1d2c7835
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-<<<<<<< HEAD
 l.254 
        [2 <./Familiarity.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 303.
 
-(./sigchi-sample.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 365.
-=======
-l.79 
-      [3])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 366.
->>>>>>> 181f813075bb7b5a68484af2e1d320ba6aec4c3a
->>>>>>> 3baef4be0eb9cf6a98e5e3c7de06e80d1d2c7835
+<InAirControlArea.png, id=204, 606.265pt x 955.57pt>
+File: InAirControlArea.png Graphic file (type png)
+
+<use InAirControlArea.png>
+Package pdftex.def Info: InAirControlArea.png used on input line 307.
+(pdftex.def)             Requested size: 73.19545pt x 115.36333pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<OnBodyForms.png, id=205, 1488.56125pt x 1059.96pt>
+File: OnBodyForms.png Graphic file (type png)
+ <use OnBodyForms.png>
+Package pdftex.def Info: OnBodyForms.png used on input line 316.
+(pdftex.def)             Requested size: 219.58264pt x 156.35083pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(./sigchi-sample.bblpdfTeX warning (ext4): destination with the same identifier
+ (name{page.}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.54 
+      [3 <./InAirControlArea.png> <./OnBodyForms.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 380.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-<<<<<<< HEAD
-l.365 \end{document}
-                     [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 365.
-=======
-<<<<<<< HEAD
-l.341 \end{document}
-                     [3 <./InAirporpotion.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 341.
- (./sigchi-sample.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 341.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 341.
-Package rerunfilecheck Info: File `sigchi-sample.out' has not changed.
-(rerunfilecheck)             Checksum: F8C37EE5C0425BB6C79060F84F7E4DFF;2355.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 341.
- ) 
-Here is how much of TeX's memory you used:
- 6331 strings out of 493315
- 90852 string characters out of 6137903
- 190196 words of memory out of 5000000
- 9617 multiletter control sequences out of 15000+600000
-=======
-l.366 \end{document}
+l.380 \end{document}
                      [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 366.
->>>>>>> 3baef4be0eb9cf6a98e5e3c7de06e80d1d2c7835
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 380.
  (./sigchi-sample.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 365.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 365.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 380.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 380.
 Package rerunfilecheck Info: File `sigchi-sample.out' has not changed.
 (rerunfilecheck)             Checksum: 45CF8E8A51AB2234ADFE6BC297CB9B5B;2352.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 365.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 380.
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 6319 strings out of 493315
- 90641 string characters out of 6137904
- 195064 words of memory out of 5000000
- 9608 multiletter control sequences out of 15000+600000
-=======
- 6326 strings out of 493315
- 90754 string characters out of 6137904
- 186260 words of memory out of 5000000
- 9613 multiletter control sequences out of 15000+600000
->>>>>>> 181f813075bb7b5a68484af2e1d320ba6aec4c3a
->>>>>>> 3baef4be0eb9cf6a98e5e3c7de06e80d1d2c7835
+ 6332 strings out of 493315
+ 90896 string characters out of 6137904
+ 201402 words of memory out of 5000000
+ 9617 multiletter control sequences out of 15000+600000
  31709 words of font info for 71 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,10n,30p,929b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,30p,929b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.37} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -564,28 +527,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-<<<<<<< HEAD
-Output written on sigchi-sample.pdf (3 pages, 149496 bytes).
+Output written on sigchi-sample.pdf (4 pages, 339629 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 254 compressed objects within 3 object streams
- 65 named destinations out of 1000 (max. 500000)
- 278 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-<<<<<<< HEAD
-Output written on sigchi-sample.pdf (3 pages, 182139 bytes).
-PDF statistics:
- 279 PDF objects out of 1000 (max. 8388607)
- 256 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
-=======
-Output written on sigchi-sample.pdf (4 pages, 152502 bytes).
-PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  259 compressed objects within 3 object streams
- 66 named destinations out of 1000 (max. 500000)
- 283 words of extra memory for PDF output out of 10000 (max. 10000000)
->>>>>>> 181f813075bb7b5a68484af2e1d320ba6aec4c3a
->>>>>>> 3baef4be0eb9cf6a98e5e3c7de06e80d1d2c7835
+ 67 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
