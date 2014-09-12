@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{appannie}
 {App Annie}.
@@ -11,13 +11,30 @@ Biskupski, A., Fender, A.~R., Feuchtner, T.~M., Karsten, M., and Willaredt,
 \newblock In {\em CHI '14 Extended Abstracts on Human Factors in Computing
   Systems}, CHI EA '14, ACM (New York, NY, USA, 2014), 289--292.
 
+\bibitem{Epps:2006:SHS:1125451.1125601}
+Epps, J., Lichman, S., and Wu, M.
+\newblock A study of hand shape use in tabletop gesture interaction.
+\newblock In {\em CHI '06 Extended Abstracts on Human Factors in Computing
+  Systems}, CHI EA '06, ACM (New York, NY, USA, 2006), 748--753.
+
 \bibitem{esa_ef_2014}
 {Essential Facts About The Computer And Video Game Industry}.
 \newblock \url{http://www.theesa.com/facts/pdfs/esa_ef_2014.pdf}.
 
+\bibitem{userComputer}
+Foley, J.D., v. D. A. F. S. H.~J.
+\newblock {\em {The form and content of user-computer dialogues. In Computer
+  Graphics: Principles and Practice.}}
+\newblock Reading, MA: Addison-Wesley, 1996.
+
 \bibitem{GameStop}
 {GameStop}.
 \newblock \url{http://www.gamestop.com}.
+
+\bibitem{gulf}
+{Hutchins, E.L., Hollan, J.D., Norman, D.A.}
+\newblock Direct manipulation interfaces.
+\newblock In {\em Human-Computer Interaction 1} (1985), 311--388.
 
 \bibitem{Jurgelionis:2011:PET:2027456.2027462}
 Jurgelionis, A., Nap, H.~H., Gajadhar, B.~J., Bellotti, F., Wang, A.~I., and
