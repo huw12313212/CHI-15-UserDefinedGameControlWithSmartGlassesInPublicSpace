@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.24)  13 SEP 2014 16:40
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  13 SEP 2014 16:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -430,23 +430,33 @@ een already used, duplicate ignored
 l.256 
        [2 <./Familiarity.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 308.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 307.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 308.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 307.
 
-Overfull \hbox (35.78496pt too wide) in paragraph at lines 304--343
+Overfull \hbox (35.78496pt too wide) in paragraph at lines 303--342
  [][] 
  []
 
 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.401 ...ubsection{User-Defined Game Control Sets}
+                                                   [3]
+
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 413.
+(hyperref)                than one, level fixed on input line 412.
+
 
 <InAirControlArea.png, id=209, 606.265pt x 955.57pt>
 File: InAirControlArea.png Graphic file (type png)
 
 <use InAirControlArea.png>
-Package pdftex.def Info: InAirControlArea.png used on input line 417.
+Package pdftex.def Info: InAirControlArea.png used on input line 416.
 (pdftex.def)             Requested size: 73.19545pt x 115.36333pt.
 
 
@@ -455,42 +465,47 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <OnBodyForms.png, id=210, 1372.12625pt x 1033.8625pt>
 File: OnBodyForms.png Graphic file (type png)
  <use OnBodyForms.png>
-Package pdftex.def Info: OnBodyForms.png used on input line 425.
+
+Package pdftex.def Info: OnBodyForms.png used on input line 424.
 (pdftex.def)             Requested size: 219.58264pt x 165.43715pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.452 \section{Acknowledgments}
-                                [3] (./sigchi-sample.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 489.
-pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
-een already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.489 \end{document}
-                     [4 <./InAirControlArea.png> <./OnBodyForms.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 489.
+(./sigchi-sample.bbl
+Overfull \vbox (35.76025pt too high) has occurred while \output is active []
 
-(./sigchi-sample.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 489.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 489.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+
+l.79 
+      [4 <./OnBodyForms.png> <./InAirControlArea.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 488.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.488 \end{document}
+                     [5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 488.
+ (./sigchi-sample.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 488.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 488.
 Package rerunfilecheck Info: File `sigchi-sample.out' has not changed.
 (rerunfilecheck)             Checksum: D4998447E5FB940A0DE90490C8FA8B49;2425.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 489.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 488.
  ) 
 Here is how much of TeX's memory you used:
  6345 strings out of 493315
- 91060 string characters out of 6137903
- 194527 words of memory out of 5000000
+ 91060 string characters out of 6137904
+ 206527 words of memory out of 5000000
  9625 multiletter control sequences out of 15000+600000
  33857 words of font info for 74 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,10n,30p,906b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,30p,1084b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
+
 pdfTeX warning (dest): name{section*.38} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -526,10 +541,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist
 /times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigchi-sample.pdf (4 pages, 336494 bytes).
+Output written on sigchi-sample.pdf (5 pages, 337906 bytes).
 PDF statistics:
- 293 PDF objects out of 1000 (max. 8388607)
- 270 compressed objects within 3 object streams
+ 296 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
  70 named destinations out of 1000 (max. 500000)
  296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
