@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  12 SEP 2014 22:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  13 SEP 2014 11:45
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -302,11 +302,7 @@ Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 59.
 Package hyperref Info: Option `colorlinks' set `true' on input line 59.
 Package hyperref Info: Option `breaklinks' set `true' on input line 59.
 
-(./sigchi-sample.aux
-
-LaTeX Warning: Label `fig:figureFamiliarity' multiply defined.
-
-)
+(./sigchi-sample.aux)
 \openout1 = `sigchi-sample.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
@@ -324,7 +320,8 @@ LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
 LaTeX Font Info:    ... okay on input line 66.
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 66.
- (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
@@ -421,7 +418,7 @@ Overfull \hbox (9.05556pt too wide) in paragraph at lines 170--212
  [][] 
  []
 
-<Familiarity.png, id=176, 584.1825pt x 394.47375pt>
+<Familiarity.png, id=180, 584.1825pt x 394.47375pt>
 File: Familiarity.png Graphic file (type png)
  <use Familiarity.png>
 Package pdftex.def Info: Familiarity.png used on input line 235.
@@ -439,71 +436,68 @@ l.254
        [2 <./Familiarity.png>]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
-(hyperref)                than one, level fixed on input line 303.
+(hyperref)                than one, level fixed on input line 360.
 
-<InAirControlArea.png, id=204, 606.265pt x 955.57pt>
+<InAirControlArea.png, id=208, 606.265pt x 955.57pt>
 File: InAirControlArea.png Graphic file (type png)
 
 <use InAirControlArea.png>
-Package pdftex.def Info: InAirControlArea.png used on input line 307.
+Package pdftex.def Info: InAirControlArea.png used on input line 364.
 (pdftex.def)             Requested size: 73.19545pt x 115.36333pt.
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<OnBodyForms.png, id=205, 1372.12625pt x 1033.8625pt>
+<OnBodyForms.png, id=209, 1372.12625pt x 1033.8625pt>
 File: OnBodyForms.png Graphic file (type png)
  <use OnBodyForms.png>
-Package pdftex.def Info: OnBodyForms.png used on input line 315.
+Package pdftex.def Info: OnBodyForms.png used on input line 372.
 (pdftex.def)             Requested size: 219.58264pt x 165.43715pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-(./sigchi-sample.bblpdfTeX warning (ext4): destination with the same identifier
- (name{page.}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.48 ...item{Jurgelionis:2011:PET:2027456.2027462}
-                                                   [3 <./InAirControlArea.png> 
-<./OnBodyForms.png>])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 379.
+(./sigchi-sample.bbl
+
+Package balance Warning: You have called \balance in second column
+(balance)                Columns might not be balanced.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.379 \end{document}
-                     [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 379.
+l.20 \bibitem{BT100}
+                     [3 <./InAirControlArea.png>])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 436.
+pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
+een already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.436 \end{document}
+                     [4 <./OnBodyForms.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 436.
  (./sigchi-sample.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 379.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 379.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 436.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 436.
 Package rerunfilecheck Info: File `sigchi-sample.out' has not changed.
-(rerunfilecheck)             Checksum: 45CF8E8A51AB2234ADFE6BC297CB9B5B;2352.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 379.
+(rerunfilecheck)             Checksum: D4998447E5FB940A0DE90490C8FA8B49;2425.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 436.
  ) 
 Here is how much of TeX's memory you used:
- 6332 strings out of 493315
- 90896 string characters out of 6137904
- 200342 words of memory out of 5000000
- 9617 multiletter control sequences out of 15000+600000
+ 6337 strings out of 493315
+ 90965 string characters out of 6137904
+ 187413 words of memory out of 5000000
+ 9620 multiletter control sequences out of 15000+600000
  31709 words of font info for 71 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,10n,30p,929b,425s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section*.37} has been referenced but does not exi
+ 41i,10n,30p,929b,415s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{section*.38} has been referenced but does not exi
 st, replaced by a fixed one
+
+pdfTeX warning (dest): name{section*.37} has been referenced but does not exist
+, replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.36} has been referenced but does not exist
 , replaced by a fixed one
 
-pdfTeX warning (dest): name{section*.35} has been referenced but does not exist
-, replaced by a fixed one
-
-pdfTeX warning (dest): name{section*.29} has been referenced but does not exist
+pdfTeX warning (dest): name{section*.30} has been referenced but does not exist
 , replaced by a fixed one
 
 pdfTeX warning (dest): name{section*.17} has been referenced but does not exist
@@ -528,10 +522,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist
 /type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw
 /times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utm
 r8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigchi-sample.pdf (4 pages, 320090 bytes).
+Output written on sigchi-sample.pdf (4 pages, 322500 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 259 compressed objects within 3 object streams
- 67 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 287 PDF objects out of 1000 (max. 8388607)
+ 265 compressed objects within 3 object streams
+ 69 named destinations out of 1000 (max. 500000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 

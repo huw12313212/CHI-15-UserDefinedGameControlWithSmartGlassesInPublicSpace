@@ -170,7 +170,7 @@ letter-number combination will need to be entered.}
     \begin{tabular}{|c|l|l|}
       \hline
       \tabhead{\#} &
-      \multicolumn{1}{|p{0.4\columnwidth}|}{\centering\tabhead{Description}} &
+      \multicolumn{1}{|p{0.4\columnwidth}|}{\centering\tabhead{Task}} &
       \multicolumn{1}{|p{0.4\columnwidth}|}{\centering\tabhead{Used in Famous Game}} \\
       \hline
       1 & Single select & Clash of Clans, Plague Inc.\\
@@ -233,7 +233,7 @@ letter-number combination will need to be entered.}
   \begin{figure}[!h]
   \centering
   \includegraphics[width=0.9\columnwidth]{Familiarity}
-  \caption{Summary of users' game control familiarity.}
+  \caption{Users' game control familiarity.}
   \label{fig:figureFamiliarity}
   \end{figure}   
 
@@ -283,9 +283,66 @@ Our results include game control taxonomies, the user-defined gesture sets, user
   Altough the forms factor of smart glasses influence the design of game control, the user preference ratings for user-defined game controls between 2 different glass forms are almost no difference (F=?, P=?).
 
 
-
-
   \subsection{Classification of Game Controls}
+  As noted in related work, ???????? . However, no work has established a taxonomy of game control based on user behavior in public space to capture and describe the game design space.
+
+  \subsubsection{Taxonomy of Game Control}
+
+  The authors manually classified each gesture along four dimensions: form, nature, binding, and flow. Within each dimension are multiple categories, shown in Table ?.
+
+  To control for interrater effects, an independent rater performed the same categorization using 170 trials data (random selected 10 trials for each tasks), Interrater reliability shown in table \ref{tab:kappa}. The average Kappa is .897. A Kaapa value of .8 and higher is considered \textsl{almost perfect}.
+
+ \begin{table}
+    \centering
+    \begin{tabular}{|c|l|c|}
+      \hline
+      \tabhead{\#} &
+      \multicolumn{1}{|p{0.2\columnwidth}|}{\centering\tabhead{Task}} &
+      \multicolumn{1}{|p{0.2\columnwidth}|}{\centering\tabhead{Kappa Value}} \\
+      \hline
+      1 & Single select & 0.863\\
+      \hline
+      2 & Vertical menu & 1.000\\
+      \hline
+      3 & Horizontal menu & 0.688\\
+      \hline
+      4 & Move left and right & 0.825\\
+      \hline
+      5 & Move in 4 directions & 1.000\\
+      \hline
+      6 & Switch 2 objects & 0.804\\
+      \hline
+      7 & Move object to position & 1.000\\
+      \hline
+      8 & Draw a path & 1.000\\
+      \hline
+      9 & Throw an object (in-2D) & 1.000\\
+      \hline
+      10 & Note highway & 0.697\\
+      \hline
+      11 & Rotate an object (Z-axis) & 0.867 \\
+      \hline
+      12 & Rotate an object (Y-axis) & 1.000\\
+      \hline
+      13 & Avatar jump & 0.867\\
+      \hline
+      14 & Avatar 3D move & 0.880\\
+      \hline
+      15 & Avatar attack & 1.000\\
+      \hline
+      16 & Avatar squat & 0.878\\
+      \hline
+      17 & 3D Viewport control & 0.878\\
+      \hline
+      & Average & 0.897\\
+      \hline
+
+    \end{tabular}
+    \caption{Interrater reliability for each task.}
+    \label{tab:kappa}
+  \end{table}
+
+ 
   %Taxonomy的圖放在這邊
   %Kappa Value也要在這邊交代
 
@@ -314,7 +371,7 @@ Our results include game control taxonomies, the user-defined gesture sets, user
   \centering
   \includegraphics[width=0.9\columnwidth]{OnBodyForms}
   \caption{The top 6 on-body input forms. (A)Interact between finger and palm. (B)Interact with ring. (C)Interact between fingers.(D)Interact between finger and leg. (E)Interact between finger and hand back. (F)Interact with watch.}
-  \label{fig:figureFamiliarity}
+  \label{fig:figureOnBodyPorpotion}
   \end{figure}   
 
   \subsubsection{Implications for User Interfaces}
