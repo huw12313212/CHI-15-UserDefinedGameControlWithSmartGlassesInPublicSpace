@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  13 SEP 2014 13:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  13 SEP 2014 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -439,7 +439,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
 (Font)              Font shape `OT1/ptm/b/it' tried instead on input line 301.
 
-Overfull \hbox (10.79999pt too wide) in paragraph at lines 297--336
+Overfull \hbox (35.78496pt too wide) in paragraph at lines 297--336
  [][] 
  []
 
@@ -486,7 +486,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 482.
 Here is how much of TeX's memory you used:
  6345 strings out of 493315
  91060 string characters out of 6137904
- 189459 words of memory out of 5000000
+ 190568 words of memory out of 5000000
  9625 multiletter control sequences out of 15000+600000
  33857 words of font info for 74 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -526,7 +526,7 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist
 /times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigchi-sample.pdf (4 pages, 334177 bytes).
+Output written on sigchi-sample.pdf (4 pages, 335204 bytes).
 PDF statistics:
  293 PDF objects out of 1000 (max. 8388607)
  270 compressed objects within 3 object streams
