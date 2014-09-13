@@ -51,6 +51,16 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/times.sty" 1156702453 857 6c716f26c5eadfb81029fcd6ce2d45e6 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty" 1264379145 21932 e3a9cf32ee9b853b42be14c2f25b873c ""
+<<<<<<< HEAD
+  "Familiarity.png" 1410588520 23886 c35ad309fbb1b6059daf2cfcb0ed2a1b ""
+  "InAirControlArea.png" 1410588520 57054 3f070b3fde7088b2162a1f68d3a98da9 ""
+  "OnBodyForms.png" 1410588520 159546 40b88897a5a34653bb269df5028509f4 ""
+  "sigchi-sample.aux" 1410591472 7224 ea2aeff2b113ea387f10f7e96606e384 ""
+  "sigchi-sample.bbl" 1410591079 2773 e205f4651a117823f6c8a817c5c59a4f "bibtex sigchi-sample"
+  "sigchi-sample.out" 1410591472 2425 d4998447e5fb940a0de90490c8fa8b49 ""
+  "sigchi-sample.tex" 1410591465 23893 afb2edf3549b0864f3e87ff54aa73d6a ""
+  "sigchi.cls" 1410588520 53804 8dfcea95058ed98096422ee12a1c7192 ""
+=======
   "Familiarity.png" 1410526801 23886 c35ad309fbb1b6059daf2cfcb0ed2a1b ""
   "InAirControlArea.png" 1410528358 57054 3f070b3fde7088b2162a1f68d3a98da9 ""
   "OnBodyForms.png" 1410533136 159546 40b88897a5a34653bb269df5028509f4 ""
@@ -59,6 +69,7 @@
   "sigchi-sample.out" 1410595660 2425 d4998447e5fb940a0de90490c8fa8b49 ""
   "sigchi-sample.tex" 1410595657 25712 5ffc573e9486ff76cc64bceff9207793 ""
   "sigchi.cls" 1406693126 53804 8dfcea95058ed98096422ee12a1c7192 ""
+>>>>>>> ebf75083affb9c4ba6e6c8099a34b32689ef77e8
   (generated)
   "sigchi-sample.out"
   "sigchi-sample.aux"
