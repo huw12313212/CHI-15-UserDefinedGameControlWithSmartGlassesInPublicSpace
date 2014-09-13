@@ -23,6 +23,7 @@
 \usepackage{times}    % comment if you want LaTeX's default font
 \usepackage{url}      % llt: nicely formatted URLs
 \usepackage{makecell}
+\usepackage{changepage}
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -294,50 +295,47 @@ Our results include game control taxonomies, user-defined gesture sets, user rat
 
    To control for interrater effects, an independent rater performed the same categorization using 170 trials data (random selected 10 trials for each tasks), Interrater reliability shown in table \ref{tab:kappa}. The average Kappa is .897. A Kappa value of .8 and higher is considered \textsl{almost perfect}.
 
+
     \begin{table}
     \centering
+    \begin{adjustwidth}{-0.4cm}{}
     \begin{tabular}{|l|l|l|}
       \hline
       \multicolumn{3}{|p{\columnwidth}|}{\centering\tabhead{\textbf{Taxonomy of Game Controls}}}\\
-      % \hline
       \Xhline{4\arrayrulewidth}
-        \textbf{\em{Form}} & \em{finger} & Using finger to perform control.\\
-        \textbf{\em{(In-Air)}}  & \em{hand} & Using hand to perform control.\\
-             & \em{head} & Using head to perform control.\\
-             & \em{voice} & Using voice control.\\
+        \textbf{\em{Form}} & \em{finger} & Using finger to perform control.\\ \cline{2-3} 
+        \textbf{\em{{\fontsize{0.3cm}{1em}\selectfont (In-Air)}}}  & \em{hand} & Using hand to perform control.\\ \cline{2-3} 
+             & \em{head} & Using head to perform control.\\ \cline{2-3} 
+             & \em{voice} & Using voice control.\\ 
       \Xhline{4\arrayrulewidth}
-     % \hline
-        \textbf{\em{Form}} & \em{palm} & Interact b.t. finger and palm. \\
-        \textbf{\em{(On-Body)}} & \em{fingers} & Interact b.t. fingers.\\
-
-             & \em{leg} & Interact b.t. hand and leg.\\
-             & \em{handback} & Interact b.t. finger and handback.\\
-             & \em{forearm} & Interact b.t. finger and forearm.\\
-             & \em{face} & Interact b.t. finger and face.\\
-             & \em{wrist} & Interact b.t. finger and wrist.\\
-             & \em{ring} & Interact with ring. \\
-             & \em{watch} & Interact with watch.\\
-             & \em{glasses} & Interact with glasses.\\
-             & \em{necklace} & Interact with necklace.\\
+        \textbf{\em{Form}} & \em{palm} & Interact b.t. finger and palm. \\ \cline{2-3} 
+        \textbf{\em{{\fontsize{0.3cm}{1em}\selectfont (On-Body)}}} & \em{fingers} & Interact b.t. fingers.\\ \cline{2-3} 
+             & \em{leg} & Interact b.t. hand and leg.\\ \cline{2-3} 
+             & \em{handback} & Interact b.t. finger and handback.\\ \cline{2-3} 
+             & \em{forearm} & Interact b.t. finger and forearm.\\ \cline{2-3} 
+             & \em{face} & Interact b.t. finger and face.\\ \cline{2-3} 
+             & \em{wrist} & Interact b.t. finger and wrist.\\ \cline{2-3} 
+             & \em{ring} & Interact with ring. \\ \cline{2-3} 
+             & \em{watch} & Interact with watch.\\ \cline{2-3} 
+             & \em{glasses} & Interact with glasses.\\ \cline{2-3} 
+             & \em{necklace} & Interact with necklace.\\ 
       \Xhline{4\arrayrulewidth}
-      %\hline
-        \textbf{\em{Binding}} & \em{direct} & Directly control with screen. \\
-             & \em{surface} & Absolute mapping screen to surface.\\
+        \textbf{\em{Binding}} & \em{direct} & Directly control with screen. \\ \cline{2-3} 
+             & \em{surface} & Absolute mapping screen to surface.\\ \cline{2-3} 
              & \em{independent} & No binding b.t. screen and control.\\
       \Xhline{4\arrayrulewidth}
-      %\hline
-        \textbf{\em{Nature}} & \em{symbolic} & Control visually depicts a symbol.\\
-             & \em{physical} & Control acts physically on objects.\\
-             & \em{metaphorical} & Control indicates a metaphor.\\
+        \textbf{\em{Nature}} & \em{symbolic} & Control visually depicts a symbol.\\ \cline{2-3} 
+             & \em{physical} & Control acts physically on objects.\\ \cline{2-3} 
+             & \em{metaphorical} & Control indicates a metaphor.\\ \cline{2-3} 
              & \em{abstract} & Control mapping is arbitrary.\\
       \Xhline{4\arrayrulewidth}
-      %\hline
-        \textbf{\em{Flow}} & \em{discrete} & Response occurs \em{after} the user acts.\\
+        \textbf{\em{Flow}} & \em{discrete} & Response occurs \em{after} the user acts.\\ \cline{2-3} 
              & \em{continuous} & Response occurs \em{before} the user acts.\\
       \hline
     \end{tabular}
     \caption{Taxonomy of game controls based on 2448 gestures. The abbreviation ``b.t.'' means ``between''.}
     \label{tab:taxonomy}
+    \end{adjustwidth}
   \end{table}
 
 
