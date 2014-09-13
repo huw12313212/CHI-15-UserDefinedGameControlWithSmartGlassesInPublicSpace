@@ -22,6 +22,8 @@
 \usepackage{graphics} % for EPS, load graphicx instead
 \usepackage{times}    % comment if you want LaTeX's default font
 \usepackage{url}      % llt: nicely formatted URLs
+\usepackage{makecell}
+\usepackage{changepage}
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -251,7 +253,7 @@ letter-number combination will need to be entered.}
   \end{figure}   
 
   \subsection {Glass Forms}
-  There are many Smart Glasses with different screen sizes and screen placement on the current market. To observe the effect of distinct display designs upon the study result, our study conducted on two famous Smart Glasses, Epson and Google Glass. The display of Epson BT-100 is located in front of the user's eyes with $960 \times 540$ resolution (equivalent of a 320" screen from 20 m away)\cite{BT100}. And Google Glass locates its display above the user's right eye with $640 \times 360$ resolution (equivalent of a 25" screen from 2.4 m away)\cite{GoogleGlass}.       
+  There are many Smart Glasses with different screen sizes and screen placement on the current market. To observe the effect of distinct display designs upon the study result, our study conducted on two famous Smart Glasses, Epson BT-100 and Google Glass. The display of Epson BT-100 is located in front of the user's eyes with $960 \times 540$ resolution (equivalent of a 320" screen from 20 m away)\cite{BT100}. And Google Glass locates its display above the user's right eye with $640 \times 360$ resolution (equivalent of a 25" screen from 2.4 m away)\cite{GoogleGlass}.       
 
     \subsection {Interaction Methods}
 
@@ -302,57 +304,56 @@ Our results include game control taxonomies, user-defined gesture sets, user rat
 
   \subsubsection{Taxonomy of Game Control}
 
-  The authors manually classified each gesture along four dimensions: \emph{form}, \emph{nature}, \emph{binding}, and \emph{flow}. Within each dimension are multiple categories, shown in Table \ref{tab:taxonomy}.
+  The authors manually classified each gesture along four dimensions: \emph{form}, \emph{nature}, \emph{binding}, and \emph{flow}. Within each dimension are multiple categories, shown in Table \ref{tab:taxonomy}. To control for interrater effects, an independent rater performed the same categorization using 170 trials data (random selected 10 trials for each tasks), Interrater reliability shown in table \ref{tab:kappa}. The average Kappa is .897. A Kappa value of .8 and higher is considered \textsl{almost perfect}.
 
-   \begin{table}
+   To control for interrater effects, an independent rater performed the same categorization using 170 trials data (random selected 10 trials for each tasks), Interrater reliability shown in table \ref{tab:kappa}. The average Kappa is .897. A Kappa value of .8 and higher is considered \textsl{almost perfect}.
+
+
+
+    \begin{table}
     \centering
+    \begin{adjustwidth}{-0.4cm}{}
     \begin{tabular}{|l|l|l|}
       \hline
       \multicolumn{3}{|p{\columnwidth}|}{\centering\tabhead{\textbf{Taxonomy of Game Controls}}}\\
-      \hline
-        \textbf{\em{Form}} & \em{finger} & Using finger to perform control.\\
-        \textbf{\em{(In-Air)}}  & \em{hand} & Using hand to perform control.\\
-             & \em{head} & Using head to perform control.\\
-             & \em{voice} & Using voice control.\\
-      \hline
-     % \hline
-        \textbf{\em{Form}} & \em{palm} & Interact b.t. finger and palm. \\
-        \textbf{\em{(On-Body)}} & \em{fingers} & Interact b.t. fingers.\\
-
-             & \em{leg} & Interact b.t. hand and leg.\\
-             & \em{handback} & Interact b.t. finger and handback.\\
-             & \em{forearm} & Interact b.t. finger and forearm.\\
-             & \em{face} & Interact b.t. finger and face.\\
-             & \em{wrist} & Interact b.t. finger and wrist.\\
-             & \em{ring} & Interact with ring. \\
-             & \em{watch} & Interact with watch.\\
-             & \em{glasses} & Interact with glasses.\\
-             & \em{necklace} & Interact with necklace.\\
-      \hline
-      %\hline
-        \textbf{\em{Binding}} & \em{direct} & Directly control with screen. \\
-             & \em{surface} & Absolute mapping screen to surface.\\
+      \Xhline{4\arrayrulewidth}
+        \textbf{\em{Form}} & \em{finger} & Using finger to perform control.\\ \cline{2-3} 
+        \textbf{\em{{\fontsize{0.3cm}{1em}\selectfont (In-Air)}}}  & \em{hand} & Using hand to perform control.\\ \cline{2-3} 
+             & \em{head} & Using head to perform control.\\ \cline{2-3} 
+             & \em{voice} & Using voice control.\\ 
+      \Xhline{4\arrayrulewidth}
+        \textbf{\em{Form}} & \em{palm} & Interact b.t. finger and palm. \\ \cline{2-3} 
+        \textbf{\em{{\fontsize{0.3cm}{1em}\selectfont (On-Body)}}} & \em{fingers} & Interact b.t. fingers.\\ \cline{2-3} 
+             & \em{leg} & Interact b.t. hand and leg.\\ \cline{2-3} 
+             & \em{handback} & Interact b.t. finger and handback.\\ \cline{2-3} 
+             & \em{forearm} & Interact b.t. finger and forearm.\\ \cline{2-3} 
+             & \em{face} & Interact b.t. finger and face.\\ \cline{2-3} 
+             & \em{wrist} & Interact b.t. finger and wrist.\\ \cline{2-3} 
+             & \em{ring} & Interact with ring. \\ \cline{2-3} 
+             & \em{watch} & Interact with watch.\\ \cline{2-3} 
+             & \em{glasses} & Interact with glasses.\\ \cline{2-3} 
+             & \em{necklace} & Interact with necklace.\\ 
+      \Xhline{4\arrayrulewidth}
+        \textbf{\em{Binding}} & \em{direct} & Directly control with screen. \\ \cline{2-3} 
+             & \em{surface} & Absolute mapping screen to surface.\\ \cline{2-3} 
              & \em{independent} & No binding b.t. screen and control.\\
-      \hline
-      %\hline
-        \textbf{\em{Nature}} & \em{symbolic} & Control visually depicts a symbol.\\
-             & \em{physical} & Control acts physically on objects.\\
-             & \em{metaphorical} & Control indicates a metaphor.\\
+      \Xhline{4\arrayrulewidth}
+        \textbf{\em{Nature}} & \em{symbolic} & Control visually depicts a symbol.\\ \cline{2-3} 
+             & \em{physical} & Control acts physically on objects.\\ \cline{2-3} 
+             & \em{metaphorical} & Control indicates a metaphor.\\ \cline{2-3} 
              & \em{abstract} & Control mapping is arbitrary.\\
-      \hline
-      %\hline
-        \textbf{\em{Flow}} & \em{discrete} & Response occurs \em{after} the user acts.\\
+      \Xhline{4\arrayrulewidth}
+        \textbf{\em{Flow}} & \em{discrete} & Response occurs \em{after} the user acts.\\ \cline{2-3} 
              & \em{continuous} & Response occurs \em{before} the user acts.\\
       \hline
     \end{tabular}
     \caption{Taxonomy of game controls based on 2448 gestures. The abbreviation ``b.t.'' means ``between''.}
     \label{tab:taxonomy}
+    \end{adjustwidth}
   \end{table}
 
-   To control for interrater effects, an independent rater performed the same categorization using 170 trials data (random selected 10 trials for each tasks), Interrater reliability shown in table \ref{tab:kappa}. The average Kappa is .897. A Kappa value of .8 and higher is considered \textsl{almost perfect}.
 
-
-\begin{table}
+ \begin{table}
     \centering
     \begin{tabular}{|c|l|c|}
       \hline
@@ -394,7 +395,7 @@ Our results include game control taxonomies, user-defined gesture sets, user rat
       \hline
       17 & 3D Viewport control & 0.878\\
       \hline
-      & \emph{Average} & \emph{0.897}\\
+      & \bf{Average} & \bf{0.897}\\
       \hline
 
     \end{tabular}
@@ -402,17 +403,27 @@ Our results include game control taxonomies, user-defined gesture sets, user rat
     \label{tab:kappa}
   \end{table}
 
-
   The scope of the \emph{form} dimension is applied separately to different interaction methods. There are 4 form categories with in-air gesture. \emph{Finger} is a special case of \emph{hand}, but it is worth distinguishing because of their similarity to mouse actions and direct-touch. There are 11 \emph{form} categories with on-body input. Each form categories can be sensed by different techonologies. 4 of them (\emph{palm}, \emph{handback}, \emph{forearm}, \emph{wrist}) are operating with both hands. 2 of them (\emph{leg}, \emph{face}) are using single hand to interact with different body parts. \emph{fingers} is specific with single hand control with just interaction between fingers. rest of them (\emph{watch}, \emph{glasses}, \emph{necklace}) are interacting with gadgets.
 
-  \emph{Binding} dimension is categorized by the relationship between control area and smart glasses screen. \emph{Direct} means control with the screen region directly, like using in-air gesture in front of the face to draging virtual objects. A game control binding is \emph{Surface Mapping} if user is absolute mapping the screen into other surface and perform game control with it. Draging object on the palm, which is mapping to screen, to move object, for example, is a \emph{Surface mapping binding} control. \emph{Binding} is \emph{indenpendent} if there is no mapping between control area and smart glasses screen, like forming a gun pose in  to perform ``throw an object''.
+  In the \emph{nature} dimension, \emph{symbolic} controls are visual depictions. For example, forming the victory pose in the air for selecting menu option 2, or forming a gun pose to throw an object. \emph{Physical} controls should ostensibly have the same effect with real world physical objects. \emph{Metaphorical} controls occur when a control acts on, with, or like something else. Examples are tracing a finger in circle to simulate a ``object ratating'', using two fingers to ``walk'' across the palm, pretending the palm as a trackpad to perform gestures. Of course, the control itself usually not enough to reveal its metaphorical nature; the answer lies in user's mental model which can be understood by our interview. Finally, \emph{abstract} gestures have no \emph{symbolic}, \emph{physical}, or \emph{metaphorical} connection to their referents. The mapping is arbitrary, which does not necessarily mean it is poor. Touch between thumb and index finger to perform ``avatar jump'', for example, would be an abstract control.
 
-  In the \emph{nature} dimension, \emph{symbolic} controls are visual depictions. For example, forming the victory pose in the air for selecting menu option 2, or forming a gun pose to throw an object. \emph{Physical} controls should ostensibly have the same effect with real world physical objects. \emph{Metaphorical} controls occur when a control acts on, with, or like something else. Examples are tracing a finger in circle to simulate a ``object ratating'', using two fingers to ``walk'' across the palm, pretending the palm as a trackpad to perform gestures. Of course, the control itself usually not enough to reveal its metaphorical nature; the answer lies in user's mental model which can be understood by our interview. Finally, \emph{abstract} gestures have no \emph{symbolic}, \emph{physical}, or \emph{metaphorical} connection to their task. The mapping is arbitrary, which does not necessarily mean it is poor. Touch between thumb and index finger to perform ``avatar jump'', for example, would be an abstract control.
+  \emph{Binding} dimension is categorized by the relationship between control area and smart glasses screen. \emph{Direct} means control with the screen region directly, like using in-air gesture in front of the face to draging virtual objects. A game control binding is \emph{Surface Mapping} if user is absolute mapping the screen into other surface and perform game control with it. Draging object on the palm, which is mapping to screen, to move object, for example, is a \emph{Surface mapping binding} control. 
 
-  A game control's \emph{flow} is discrete if the control is performed delimited, recognized, and responded to as an event. An example is tapping a imaginary button in the air to perform ``avatar attack''. \emph{Flow} is \emph{continuous} if ongoing recognition is required, such as during most of our participants' ``3D Camera Control'' with rotating imaginary camera by hands. 
+  A game control's \emph{flow} is discrete if the control is performed delimited, recognized, and responded to as an event. An example is tapping a imaginary button in the air to perform ``avatar attack''. \emph{Flow} is continuous if ongoing recognition is required, such as during most of our participants' ``3D Camera Control'' with rotating imaginary camera by hands. 
  
+
+
+
+
  \subsubsection{Taxonometric Breakdown of Gestures in our Data}
-We found that our taxonomy adequately describes even widely differing gestures made by or users. Figure ? shows for each dimension the percentage of gestures made within each category for all gestures in our study.
+We found that our taxonomy adequately describes even widely differing gestures made by our users. Figure \ref{fig:InAirTaxonomy} and ? show for each dimension the percentage of gestures made within each category for all gestures in our study.
+
+ \begin{figure}[!h]
+  \centering
+  \includegraphics[width=1\columnwidth]{InAirTaxonomy}
+  \caption{Percentage of game controls in each taxonomy category.}
+  \label{fig:InAirTaxonomy}
+  \end{figure} 
 
 
   \subsection{User-Defined Game Control Sets}
@@ -430,7 +441,7 @@ We found that our taxonomy adequately describes even widely differing gestures m
     \subsubsection{Implications for In-Air Gesture Technology}
   \begin{figure}[!h]
   \centering
-  \includegraphics[width=0.3\columnwidth]{InAirControlArea}
+  \includegraphics[width=1\columnwidth]{InAirControlArea.pdf}
   \caption{The control area for in-air hand gesture.}
   \label{fig:figureInAirPorpotion}
   \end{figure}
