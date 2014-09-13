@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  13 SEP 2014 13:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  13 SEP 2014 14:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -435,27 +435,32 @@ een already used, duplicate ignored
 l.254 
        [2 <./Familiarity.png>]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 304.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 301.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 304.
+(Font)              Font shape `OT1/ptm/b/it' tried instead on input line 301.
+
+Overfull \hbox (35.78496pt too wide) in paragraph at lines 297--336
+ [][] 
+ []
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.401   \subsection{Mental Model Observations}
-                                               [3]
+l.399 ... Breakdown of User-defined Game Controls}
+                                                   [3]
 
 Package hyperref Warning: Difference (2) between bookmark levels is greater 
 (hyperref)                than one, level fixed on input line 406.
 
-<InAirControlArea.png, id=216, 606.265pt x 955.57pt>
+<InAirControlArea.png, id=217, 606.265pt x 955.57pt>
 File: InAirControlArea.png Graphic file (type png)
 
 <use InAirControlArea.png>
 Package pdftex.def Info: InAirControlArea.png used on input line 410.
 (pdftex.def)             Requested size: 73.19545pt x 115.36333pt.
 
-<OnBodyForms.png, id=217, 1372.12625pt x 1033.8625pt>
+<OnBodyForms.png, id=218, 1372.12625pt x 1033.8625pt>
 File: OnBodyForms.png Graphic file (type png)
  <use OnBodyForms.png>
 Package pdftex.def Info: OnBodyForms.png used on input line 418.
@@ -481,11 +486,11 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 482.
 Here is how much of TeX's memory you used:
  6345 strings out of 493315
  91060 string characters out of 6137904
- 188470 words of memory out of 5000000
+ 190568 words of memory out of 5000000
  9625 multiletter control sequences out of 15000+600000
  33857 words of font info for 74 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 41i,10n,30p,929b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 41i,10n,30p,934b,325s stack positions out of 5000i,500n,10000p,200000b,80000s
 pdfTeX warning (dest): name{section*.38} has been referenced but does not exi
 st, replaced by a fixed one
 
@@ -521,10 +526,10 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist
 /times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigchi-sample.pdf (4 pages, 331376 bytes).
+Output written on sigchi-sample.pdf (4 pages, 335204 bytes).
 PDF statistics:
- 292 PDF objects out of 1000 (max. 8388607)
- 269 compressed objects within 3 object streams
+ 293 PDF objects out of 1000 (max. 8388607)
+ 270 compressed objects within 3 object streams
  70 named destinations out of 1000 (max. 500000)
  296 words of extra memory for PDF output out of 10000 (max. 10000000)
 
