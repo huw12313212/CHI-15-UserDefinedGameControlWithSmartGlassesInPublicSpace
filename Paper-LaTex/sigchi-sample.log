@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  13 SEP 2014 13:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.24)  13 SEP 2014 14:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,7 +485,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 482.
  ) 
 Here is how much of TeX's memory you used:
  6345 strings out of 493315
- 91060 string characters out of 6137904
+ 91060 string characters out of 6137903
  189459 words of memory out of 5000000
  9625 multiletter control sequences out of 15000+600000
  33857 words of font info for 74 fonts, out of 8000000 for 9000
@@ -526,7 +526,7 @@ mf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist
 /times/utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/ut
 mr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><
 /usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigchi-sample.pdf (4 pages, 334177 bytes).
+Output written on sigchi-sample.pdf (4 pages, 334168 bytes).
 PDF statistics:
  293 PDF objects out of 1000 (max. 8388607)
  270 compressed objects within 3 object streams
