@@ -1,0 +1,8 @@
+*.aux
+*.bbl
+*.blg
+*_latexmk
+*.log
+*.out
+sigchi-sample.pdf
+*.synctex.gz
