@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  13 SEP 2014 20:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.5.27)  13 SEP 2014 20:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,9 +482,9 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.448 \section{Conclusion}
-                           [4 <./InAirTaxonomy.png> <./InAirControlArea.png> <.
-/OnBodyForms.png>] (./sigchi-sample.bbl)
+l.463 \section{Acknowledgments}
+                                [4 <./InAirTaxonomy.png> <./InAirControlArea.pn
+g> <./OnBodyForms.png>] (./sigchi-sample.bbl)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 500.
 pdfTeX warning (ext4): destination with the same identifier (name{page.}) has b
 een already used, duplicate ignored
@@ -546,7 +546,7 @@ t/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
 /utmbi8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.p
 fb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/l
 ocal/texlive/2013/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on sigchi-sample.pdf (5 pages, 460951 bytes).
+Output written on sigchi-sample.pdf (5 pages, 460957 bytes).
 PDF statistics:
  315 PDF objects out of 1000 (max. 8388607)
  287 compressed objects within 3 object streams
