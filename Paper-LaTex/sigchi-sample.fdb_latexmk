@@ -1,13 +1,14 @@
 # Fdb version 3
-["bibtex sigchi-sample"] 1410610322 "sigchi-sample.aux" "sigchi-sample.bbl" "sigchi-sample" 1410610325
+["bibtex sigchi-sample"] 1410601957 "sigchi-sample.aux" "sigchi-sample.bbl" "sigchi-sample" 1410602198
   "./acm-sigchi.bst" 1313101014 20072 e6117c8e1df770982b2669fe3a5732f1 ""
   "sample.bib" 1410504012 8283 9451b5d6d858dc927ed011bc13fce327 ""
-  "sigchi-sample.aux" 1410610324 7741 abaf674ed6824497b44e9f091d1d05ef ""
+  "sigchi-sample.aux" 1410601959 7480 583f86c4287724a2ef14d7694a319e13 ""
+
   "sigchi-sample.bcf" 0 -1 0 ""
   (generated)
   "sigchi-sample.blg"
   "sigchi-sample.bbl"
-["pdflatex"] 1410610323 "sigchi-sample.tex" "sigchi-sample.pdf" "sigchi-sample" 1410610325
+["pdflatex"] 1410601958 "sigchi-sample.tex" "sigchi-sample.pdf" "sigchi-sample" 1410602198
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty" 1303254447 8237 52810bdb4db2270e717422560a104aea ""
@@ -40,6 +41,7 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg" 1279039959 678 4792914a8f45be57bb98413425e4c7af ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg" 1278958963 3563 d35e897cae3b8c6848f6677b73370b54 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg" 1254097189 235 6031e5765137be07eed51a510b2b8fb7 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/makecell/makecell.sty" 1249334690 15773 2dd7dde1ec1c2a3d0c85bc3b273e04d8 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty" 1303254447 3834 707ef09f31d7d2ea47ba89974755dfe0 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty" 1303254447 12029 04d7fdf76e0464c23b5aa3a727952d7c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty" 1335995445 7075 bd0c34fbf1ae8fd1debd2a554e41b2d5 ""
@@ -50,16 +52,18 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1pcr.fd" 1137110629 985 1ed784d7bfe47179f3550d2303b073f8 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1ptm.fd" 1137110629 961 15056f4a61917ceed3a44e4ac11fcc52 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/times.sty" 1156702453 857 6c716f26c5eadfb81029fcd6ce2d45e6 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty" 1254151720 13146 3e38b06d6e7ca62ce1bdb63b0d6148a5 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty" 1264379145 21932 e3a9cf32ee9b853b42be14c2f25b873c ""
+
   "Familiarity.png" 1410526801 23886 c35ad309fbb1b6059daf2cfcb0ed2a1b ""
   "InAirControlArea.png" 1410528358 57054 3f070b3fde7088b2162a1f68d3a98da9 ""
-  "InAirTaxonomy.png" 1410609278 133571 28acc68e76dbcbb1d5c4a86ab863fc5f ""
   "OnBodyForms.png" 1410533136 159546 40b88897a5a34653bb269df5028509f4 ""
-  "sigchi-sample.aux" 1410610324 7741 abaf674ed6824497b44e9f091d1d05ef ""
-  "sigchi-sample.bbl" 1410610323 2773 e205f4651a117823f6c8a817c5c59a4f "bibtex sigchi-sample"
-  "sigchi-sample.out" 1410610324 2520 511a43301aced41225de5ace649ece28 ""
-  "sigchi-sample.tex" 1410610319 28203 3ef61c6c957512ddf564b2614dc93fb8 ""
+  "sigchi-sample.aux" 1410601959 7480 583f86c4287724a2ef14d7694a319e13 ""
+  "sigchi-sample.bbl" 1410601958 2773 e205f4651a117823f6c8a817c5c59a4f "bibtex sigchi-sample"
+  "sigchi-sample.out" 1410601959 2520 511a43301aced41225de5ace649ece28 ""
+  "sigchi-sample.tex" 1410602197 27973 e4d44b9b0711a7348e63c31efe4b75bb ""
   "sigchi.cls" 1406693126 53804 8dfcea95058ed98096422ee12a1c7192 ""
+
   (generated)
   "sigchi-sample.out"
   "sigchi-sample.aux"
