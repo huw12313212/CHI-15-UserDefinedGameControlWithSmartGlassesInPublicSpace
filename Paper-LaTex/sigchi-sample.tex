@@ -159,9 +159,9 @@ letter-number combination will need to be entered.}
 
     In Developing a user-defined game control set, we did not want the limitation of input technology to influence users' behavior. Hence, we sought to remove the \textsl{gulf of execution}\cite{gulf} from the dialogue, creating, in seence, a monologue in which the player's behavior is always acceptable. This enables us to observe users' unrevised behavior, and drive system design to accommodate it.
 
-    In view of this, we developed a user-defined game control set by having 24  participants perform game control with 2 Smart Glasses (Google Glass and Epson BT-100) in a public cafe. To avoid bias from visual hint\cite{Epps:2006:SHS:1125451.1125601}, no elements specific to Mobile, Console, PC games were shown. Similarly, no specific game title was assumed. Instead, participants acted in a simple blocks world of geometry shapes or basic human avatar. Each participant saw the effect of a game control (e.g., an object moving left and right) and was asked to perform the game control he or she though would cause that effect(e.g. moving the finger tip left and right in front of their chest). In another word, the effect of a game control is the \textsl{game task} to which the game control try to complete.
+    In view of this, we developed a user-defined game control set by having 24  participants perform game control with 2 Smart Glasses (Google Glass and Epson BT-100) in a public cafe. To avoid bias from visual hint\cite{Epps:2006:SHS:1125451.1125601}, no elements specific to Mobile, Console, PC games were shown. Similarly, no specific game title was assumed. Instead, participants acted in a simple blocks world of geometry shapes or basic human avatar. Each participant saw the effect of a game control (e.g., an object moving left and right) and was asked to perform the game control he or she thought would cause that effect(e.g. moving the finger tip left and right in front of their chest). In another word, the effect of a game control is the \textsl{game task} to which the game control try to complete.
 
-    Seven-teen game tasks were presented, and game controls were elicited for three different interaction methods (in-air gesture, on-body input, mobile phone interaction). The system did not attempt to sense the users' control input, but we use camera to record the whole control process. Participants used the think-aloud protocol and been interviewed about the control detail. They also supplied subjective preference ratings.
+    Seven-teen game tasks were presented, and game controls were elicited for three different interaction methods (in-air gesture, on-body input, mobile phone interaction). The system did not attempt to sense the users' control input, but we use a camera to record the whole control process. Participants used the think-aloud protocol and were interviewed about the control detail. They also supplied subjective preference ratings.
 
     The final user-defined game control set was developed in light of the \textsl{agreement} participants exhibited in choosing game control for each command\cite{Wobbrock:2005:MGS:1056808.1057043}. The more participants that used the same gesture for a given command, the more likely that gesture would be assigned to that command. In the end, our user-defined game control set emerged as a consistent collection founded on actual user behavior.
     %這邊要研究一下......why "surprisingly consistent"
@@ -449,7 +449,8 @@ We found that our taxonomy adequately describes even widely differing gestures m
    The user-defined game control set was developed by taking largest groups with identical control for each game task and then assigned those groups' control to the task. 
    Our results of the user-defined game control set covered game controls with in-air gesture and on-body input with 40.07\% and 41.32\% respectively. Our user defined set is useful, therefore, not just for what it contains, but also for what it omits.
 
-   With in-air gestures(see Figure \ref{?????}), although we informed users to perform game control not limited with hands in advance, the result showed that users still preferred to use hand gestures rather than use voice controls, eye gesture and head tilting. Additionally, users would make use of direct-control if they had to perform precise task, such as selecting an object from many or moving an object to the specific position.As other tasks with lower precision requirement, such as selecting a single option from 4 or enabing an avatar jump. Users would prefer using an in-direct control. For example, users tapped 4 different area in front of their chest or raised hands slightly.
+   With in-air gestures(see Figure \ref{fig:InAirSet} although we informed users to perform game control not limited with hands in advance, the result showed that users still preferred to use hand gestures rather than use voice controls, eye gesture and head tilting. Additionally, users would make use of direct-control if they had to perform precise task, such as selecting an object from many or moving an object to the specific position.As other tasks with lower precision requirement, such as selecting a single option from 4 or enabing an avatar jump. Users would prefer using an in-direct control. For example, users tapped 4 different area in front of their chest or raised hands slightly.
+
 
     All the controls in our final on-body input set are finger related (see Figure \ref{fig:OnBodyInputSet}). Most of them use single finger tip to perform gestures on different surfaces. And the most preferable surface for on-body gestures is hand palm. These controls seem like an trackpad or a proxy touch-screen. The remained controls are finger interaction with single hand. Specifically, users use thumb to interact with index finger or ring.
 
@@ -461,7 +462,10 @@ We found that our taxonomy adequately describes even widely differing gestures m
     To our surpirsed, approximately 63\% of in-air ``hand'' user-defined gestures were not performed in front of their face (See Figure.\ref{fig:figureInAirPorpotion}.E). This behavior conflicted with current ``Google Glass'' design and previous works\cite{Colaco:2013:MCL:2501988.2502042}. There were 7 participants perfoming more gestures in front of face than other position. They indicated that control in front of face was more precise and intuitive. At the same time, the other 17 users preferred to perform in-air gesture in front of their chest or below. Among them, there are 3 participants never performed any in-air gesture in front of their face. These users indicated that moving a finger in front of their face was really weird and not social acceptable. And there was also a hand strained problem to lift hand in front of face. They thought it was not suitable for game control.
 
     \subsubsection{Metaphor from Exisiting Game Control}
-    Although we took care not to show elements from traditional game platforms like consoles, PCs or Mobile games, participants still often
+    Although we took care not to show elements from traditional game platforms like Consoles, PCs or Mobile games, participants still often thought with the previous gaming experience. For example, some controls actions performed as if using touch-screen in front of their face (see Figure.\ref{fig:InAirSet}.A,F,G). And some actions is similiar with using a imaginary trackpad on in-air surface or hand surface(see Figure \ref{fig:InAirSet}.\{H,I\} and Figure \ref{fig:OnBodyInputSet}.\{B,D,E,F,G,J,K,M\}). Moreover, an imaginary button on the index finger(Figure \ref{fig:OnbodyTaxonomy}.Q). Even with simple shapes and basic character, it was clear how deeply rooted the previous gaming experience is. Some quotes reveal this: ``just click the button like a joystick,''``can I just use a trackpad?''``It's a imaginary touch-screen.''
+
+%    \subsubsection{Identical Gestures for Different Surface.}
+ %   In our study, we found several identical gestures performed by our users with different surfaces. Take the task ``Move in 4 directions'' for example, although 57\% of gestures were performed by moving finger on the palm (Figure \ref{fig:OnBodyInputSet}.E). The rest gestures are mostly using identical gestures on the different surfaces like handback ,leg ,forearm and even face. Same phenomenon can also be observed by compared the game control between our two user-defined game control sets. ``Move left and right'' ,``Move in 4 directions'' ,``Draw a Path'' ,``Throw an Object'' are assigned with identical gestures with different surfaces (See Figure \ref{fig:InAirTaxonomy} and \ref{fig:OnbodyTaxonomy}). In these cases, the surfaces were not influencing the meaning of gestures.
 
 
   \begin{figure*}
@@ -483,7 +487,7 @@ We found that our taxonomy adequately describes even widely differing gestures m
   \section{Discussion}
     %\subsubsection{Users' and Designers' Gestures}
     \subsubsection{Implications for In-Air Gesture Technology}
-    Before the study began, both Google Glass and Epson\cite{GoogleGlass, Colaco:2013:MCL:2501988.2502042} supplied their own in-air gesture sets to increase the diversity of their input. However, the result showed that 63\% users didn't like to perform in-air gestures in front of their faces in the public space due to social acceptance and physical tiring issues metioned by feedback. Therefore, if the developers of head worn devices want to implement in-air gestures for input, they will need to have the capablity for sensing gestures in a wide range of areas near users. Take CV-based sensing technologies for example, they can use wide-angle lens or fish-eye lens to carry out a gesture set in order to cater to users' preference.   
+    Before the study began, both Google Glass and Epson\cite{GoogleGlass, Colaco:2013:MCL:2501988.2502042} supplied their own in-air gesture sets to increase the diversity of their input. However, the result showed that 63\% in-air gestures were not performed in front of users' faces in the public space due to social acceptance and physical tiring issues metioned by feedback. Therefore, if the developers of head worn devices want to implement in-air gestures for input, they will need to have the capablity for sensing gestures in a wide range of areas near users. Take CV-based sensing technologies for example, they can use wide-angle lens or fish-eye lens to carry out a gesture set in order to cater to users' preference.   
   \begin{figure}[!h]
   \centering
   \includegraphics[width=1\columnwidth]{InAirControlArea.pdf}
@@ -491,24 +495,32 @@ We found that our taxonomy adequately describes even widely differing gestures m
   \label{fig:figureInAirPorpotion}
   \end{figure}
   \subsubsection{Implications for On-Body Input Technology}
+    Half of game controls with on-body input were using a finger to perform gesture on palm (See Figure \ref{fig:figureOnBodyPorpotion}). At first glance, it looks great to build a system that can sense the finger gestures around hand palm. In another view, all these controls were conducted by the fingers of users dominant hand. We suggest the sensing area should be targeting around the dominant hand finger rather than other specific position, like palm or leg. So you can sense almost all cases of users' on-body inputs. Take CV-based sensing techonologies for example, we should put the fish-eye lens around the dominant hand finger rather than palm.
 
-  \subsubsection{Implications for Game Control Design}
+
+
+  %\subsubsection{Implications for Game Control Design}
 
  \begin{figure}[!h]
   \centering
   \includegraphics[width=0.9\columnwidth]{OnBodyForms}
-  \caption{The top 6 on-body input forms. (A)Interact between finger and palm. (B)Interact with ring. (C)Interact between fingers.(D)Interact between finger and leg. (E)Interact between finger and hand back. (F)Interact with watch.}
+  \caption{The top 6 on-body input forms. Percentages indicate the portion of game controls were performed. (A)Interact between finger and palm. (B)Interact with ring. (C)Interact between fingers.(D)Interact between finger and leg. (E)Interact between finger and hand back. (F)Interact with watch.}
   \label{fig:figureOnBodyPorpotion}
   \end{figure}   
 
-  \subsubsection{Implications for User Interfaces}
+  %\subsubsection{Implications for User Interfaces}
   \subsubsection{Limitation and Next Steps}
+
+  As we know, there are many places known as public space, and users may behave differently in each place. Futhermore, in our study, we did not require users to define any control actions for interacting with tangible objects in public space, such as, tables or chairs in the cafe. We only asked participants to experience two types of Smart Glasses, so our user-defined game control set may not be applied to games on other types of head worn devices. Moreover, our participants were all literate Taiwanese adults; undoubtedly, childern, elders, Westerners, or uneducated participants would behave differently. These issues are worthy of investigation, but are beyond the range of the current work.
+
+  An important next step is to validate our user-defined game control set with a wearable system, which can sense all in-air and on-body control actions listed in our set.   
     %Glass Forms 只有兩種
     %Culture問題?
     %Interaction with 桌椅？
 
 
 \section{Conclusion}
+We have presented a study of glass game control leading to a user-defined game control set based on participants' agreement over 2448 gestures. It can appropriately reflect the user gaming behavior in public space with in-air and on-body inputs. We also have presented a taxonomy of glass game controls useful for analyzing and characterizing control actions with smart glasses. In capturing game controls for this study, we have gained insight into the mental models of public users and have tranlated these into implications for techonoloy and design. This work represents a necessary step in bringing smart glass gaming closer to the hands and minds of public people.
 
 
 %It is important that you write for the SIGCHI audience.  Please read
@@ -523,7 +535,7 @@ We found that our taxonomy adequately describes even widely differing gestures m
 %successful, both in being accepted into the Conference, and in
 %influencing the work of our field.
 
-\section{Acknowledgments}
+%\section{Acknowledgments}
 
 %We thank CHI, PDC and CSCW volunteers, and all publications support
 %and staff, who wrote and provided helpful comments on previous
