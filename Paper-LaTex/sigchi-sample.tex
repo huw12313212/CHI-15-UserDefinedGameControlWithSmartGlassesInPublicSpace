@@ -447,9 +447,11 @@ We found that our taxonomy adequately describes even widely differing gestures m
    \subsubsection{Agreement}
    After all 24 participants had provided game control for each game tasks with each glasses form and interaction methods, we grouped the game control within each task such that each group held identical controls. Group size was then used to compute an \emph{Agreement Scrore} that reflects, in a single number, the degree of consensus among participants. A task with .31 agreement score means that, random two users will has 31\% chance to perform the identical control action for this task. (The definition and formula of agreement score were refer to previous work \cite{Wobbrock:2005:MGS:1056808.1057043}.)
    \begin{equation}
-   A = \frac{\displaystyle{\sum_{r\epsilon R }} \sum_{P_i \subseteq P_r } \left(\frac{\lvert{P_i}\rvert}{\lvert{P_r}\rvert}\right) ^ 2}{\displaystyle{\lvert{R}\rvert}}
+   A = \frac{\displaystyle{\sum_{t\epsilon T }} \sum_{P_i \subseteq P_t } \left(\frac{\lvert{P_i}\rvert}{\lvert{P_t}\rvert}\right) ^ 2}{\displaystyle{\lvert{T}\rvert}}
    \end{equation}
   
+   In eq. 1, $t$ is a task in the set of all tasks $T$, $P_{t}$ is the set of proposed control actions for task $t$, and $P_i$ is a subset of identical control action from $P_{t}$. The range for $A$ is $\left[\lvert{P_t}\rvert ^{-1}, 1\right]$. As an example, consider agreement for \emph{draw a path} with on-body input, it had four groups of identical control actions with groups size 34, 4, 5 and 5. we compute
+
    \begin{equation}
    A_{on-body\#8} = \left(\frac{34}{48}\right) ^ 2  + \left(\frac{4}{48}\right) ^ 2 + \left(\frac{5}{48}\right) ^ 2 + \left(\frac{5}{48}\right) ^ 2 = 0.53
    \end{equation}
