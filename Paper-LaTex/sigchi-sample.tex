@@ -442,7 +442,7 @@ We found that our taxonomy adequately describes even widely differing gestures m
   \end{figure} 
 
   \subsection{User-Defined Game Control Set}
-  At the heart of this work is the creation of a user-defined game control set with smart glasses in public space. This section gives the process by which the set was created and properties of the set. Unlike prior game control sets in traditional game platforms, this set is based on observed user behavior and joins user action to game tasks.
+  At the heart of this work is the creation of a user-defined game control set with smart glasses in real-world environment. This section gives the process by which the set was created and properties of the set. Unlike prior game control sets in traditional game platforms, this set is based on observed user behavior and joins user action to game tasks.
 
    \subsubsection{Agreement}
    After all 24 participants had provided game control for each game tasks with each glasses form and interaction methods, we grouped the game control within each task such that each group held identical controls. Group size was then used to compute an \emph{Agreement Scrore} that reflects, in a single number, the degree of consensus among participants. A task with .31 agreement score means that, random two users will has 31\% chance to perform the identical control action for this task. (The definition and formula of agreement score were refer to previous work \cite{Wobbrock:2005:MGS:1056808.1057043}.)
@@ -450,7 +450,7 @@ We found that our taxonomy adequately describes even widely differing gestures m
    A = \frac{\displaystyle{\sum_{t\epsilon T }} \sum_{P_i \subseteq P_t } \left(\frac{\lvert{P_i}\rvert}{\lvert{P_t}\rvert}\right) ^ 2}{\displaystyle{\lvert{T}\rvert}}
    \end{equation}
   
-   In eq. 1, $t$ is a task in the set of all tasks $T$, $P_{t}$ is the set of proposed control actions for task $t$, and $P_i$ is a subset of identical control action from $P_{t}$. The range for $A$ is $\left[\lvert{P_t}\rvert ^{-1}, 1\right]$. As an example, consider agreement for \emph{draw a path} with on-body input, it had four groups of identical control actions with groups size 34, 4, 5 and 5. we compute
+   In eq. 1, $t$ is a task in the set of all tasks $T$, $P_{t}$ is the set of proposed control actions for task $t$, and $P_i$ is a subset of identical control action from $P_{t}$. The range for $A$ is $\left[\lvert{P_t}\rvert ^{-1}, 1\right]$. As an example, consider agreement for \emph{draw a path} with \emph{On-Body} input, it had four groups of identical control actions with groups size 34, 4, 5 and 5. we compute
 
    \begin{equation}
    A_{body-path} = \left(\frac{34}{48}\right) ^ 2  + \left(\frac{4}{48}\right) ^ 2 + \left(\frac{5}{48}\right) ^ 2 + \left(\frac{5}{48}\right) ^ 2 = 0.53
@@ -474,9 +474,9 @@ We found that our taxonomy adequately describes even widely differing gestures m
 
    \subsubsection{Properties of the User-defined Game Control Sets}
    The user-defined game control set was developed by taking largest groups with identical control for each game task and then assigned those groups' control to the task. 
-   Our results of the user-defined game control set covered game controls with in-air gesture and on-body input with 40.07\% and 41.32\% respectively. Our user defined set is useful, therefore, not just for what it contains, but also for what it omits.
+   Our results of the user-defined game control set covered game controls with \emph{In-Air} and \emph{On-Body} with 40.07\% and 41.32\% respectively. Our user defined set is useful, therefore, not just for what it contains, but also for what it omits.
 
-   With in-air gestures(see Figure \ref{fig:InAirSet} although we informed users to perform game control not limited with hands in advance, the result showed that users still preferred to use hand gestures rather than use voice controls, eye gesture and head tilting. Additionally, users would make use of direct-control if they had to perform precise task, such as selecting an object from many or moving an object to the specific position.As other tasks with lower precision requirement, such as selecting a single option from 4 or enabing an avatar jump. Users would prefer using an in-direct control. For example, users tapped 4 different area in front of their chest or raised hands slightly.
+   With \emph{In-Air}(see Figure \ref{fig:InAirSet} although we informed users to perform game control not limited with hands in advance, the result showed that users still preferred to use hand gestures rather than use voice controls, eye gesture and head tilting. Additionally, users would make use of direct-control if they had to perform precise task, such as selecting an object from many or moving an object to the specific position. As other tasks with lower precision requirement, such as selecting a single option from 4 or enabing an avatar jump. Users would prefer using an indirect-control. For example, users tapped 4 different area in front of their chest or raised hands slightly.
 
 
     All the controls in our final on-body input set are finger related (see Figure \ref{fig:OnBodyInputSet}). Most of them use single finger tip to perform gestures on different surfaces. And the most preferable surface for on-body gestures is hand palm. These controls seem like an trackpad or a proxy touch-screen. The remained controls are finger interaction with single hand. Specifically, users use thumb to interact with index finger or ring.
