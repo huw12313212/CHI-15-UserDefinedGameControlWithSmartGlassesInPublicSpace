@@ -176,7 +176,7 @@ Our results will help designers create better game controls informed by user beh
 
     Seven-teen game tasks were presented, and game controls were elicited for three different interaction methods (in-air gesture, on-body input, mobile phone interaction). The system did not attempt to sense the users' control input, but we use a camera to record the whole control process. Participants used the think-aloud protocol and were interviewed about the control detail. They also supplied subjective preference ratings.
 
-    The final user-defined game control set was developed in light of the \textsl{agreement} participants exhibited in choosing game control for each command\cite{Wobbrock:2005:MGS:1056808.1057043}. The more participants that used the same gesture for a given command, the more likely that gesture would be assigned to that command. In the end, our user-defined game control set emerged as a consistent collection founded on actual user behavior.
+    The final user-defined game control set was developed in light of the \textsl{agreement} participants exhibited in choosing game control for each command\cite{Wobbrock:2005:MGS:1056808.1057043}. The more participants that used the same gesture for a given command, the more likely that gesture would be assigned to that command. In the end, our user-defined game control set emerged as a surprisingly consistent collection founded on actual user behavior.
     %這邊要研究一下......why "surprisingly consistent"
 
 
@@ -511,7 +511,10 @@ We found that our taxonomy adequately describes even widely differing gestures m
   \label{fig:figureInAirPorpotion}
   \end{figure}
   \subsubsection{Implications for On-Body Input Technology}
-    Half of game controls with on-body input were using a finger to perform gesture on palm (See Figure \ref{fig:figureOnBodyPorpotion}). At first glance, it looks great to build a system that can sense the finger gestures around hand palm. In another view, all these controls were conducted by the fingers of users dominant hand. We suggest the sensing area should be targeting around the dominant hand finger rather than other specific position, like palm or leg. So you can sense almost all cases of users' on-body inputs. Take CV-based sensing techonologies for example, we should put the fish-eye lens around the dominant hand finger rather than palm.
+    Our results shows that hand palm is the most people's favorite area to perform on-body inputs,
+    Half of game controls with on-body input were using a finger to perform gesture on palm (See Figure \ref{fig:figureOnBodyPorpotion}). According to the mental model mentioned above, users are using the metaphor of trackpad and touch-screen on the palm in several cases. Current gesture-recognizer on trackpad and touch-screen might be a suitible implementation reference for these input controls.
+
+    In another view, all these controls were conducted by the fingers of users dominant hand. If possible, we suggest the sensing area should be targeting around the dominant hand finger rather than other specific position, like palm or leg. So you can sense almost all cases of users' on-body inputs. Take CV-based sensing techonologies for example, we should put the fish-eye lens around the dominant hand finger rather than palm.
 
 
 
