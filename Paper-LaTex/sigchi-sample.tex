@@ -24,6 +24,7 @@
 \usepackage{url}      % llt: nicely formatted URLs
 \usepackage{makecell}
 \usepackage{changepage}
+\usepackage{mathtools}
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -445,10 +446,12 @@ We found that our taxonomy adequately describes even widely differing gestures m
 
    \subsubsection{Agreement}
    After all 24 participants had provided game control for each game tasks with each glasses form and interaction methods, we grouped the game control within each task such that each group held identical controls. Group size was then used to compute an \emph{Agreement Scrore} that reflects, in a single number, the degree of consensus among participants. A task with .31 agreement score means that, random two users will has 31\% chance to perform the identical control action for this task. (The definition and formula of agreement score were refer to previous work \cite{Wobbrock:2005:MGS:1056808.1057043}.)
-
-   $\sum_{r\epsilon R } \sum_{P_i \subset P_r }$
-
+   \begin{equation}
+   A = \frac{\displaystyle{\sum_{r\epsilon R }} \sum_{P_i \subseteq P_r } \left(\frac{\lvert{P_i}\rvert}{\lvert{P_r}\rvert}\right) ^ 2}{\displaystyle{\lvert{R}\rvert}}
+   \end{equation}
    Agreement for our study is graphed in Figure \ref{fig:Agreement}. The overall agreement for in-air and on-body inputs were $A_{Air}$=0.27 and $A_{Body}$=0.25, respectively. In comparison to the agreement of in-air and on-body inputs, we found their patterns were extreme similar. The average difference of agreement between these two interaction methods was .056. It implied that the agreement score was influenced more by the game tasks than by the interaction methods.
+
+   $A$
 
  \begin{figure}[!h]
   \centering
