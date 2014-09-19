@@ -5,7 +5,7 @@
 
 
 %% EXAMPLE BEGIN -- HOW TO OVERRIDE THE DEFAULT COPYRIGHT STRIP -- (July 22, 2013 - Paul Baumann)
-% \toappear{Permission to make digital or hard copies of all or part of this work for personal or classroom use is  granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than ACM must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from permissions@acm.org. \\
+% \toappear{Permission to make digital or hard copies of all or part of this work for personal or classroom use is 	granted without fee provided that copies are not made or distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for components of this work owned by others than ACM must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or to redistribute to lists, requires prior specific permission and/or a fee. Request permissions from permissions@acm.org. \\
 % {\emph{CHI'14}}, April 26--May 1, 2014, Toronto, Canada. \\
 % Copyright \copyright~2014 ACM ISBN/14/04...\$15.00. \\
 % DOI string from ACM form confirmation}
@@ -22,6 +22,9 @@
 \usepackage{graphics} % for EPS, load graphicx instead
 \usepackage{times}    % comment if you want LaTeX's default font
 \usepackage{url}      % llt: nicely formatted URLs
+\usepackage{makecell}
+\usepackage{changepage}
+\usepackage{mathtools}
 
 % llt: Define a global style for URLs, rather that the default one
 \makeatletter
@@ -65,6 +68,7 @@ breaklinks=true,
 % End of preamble. Here it comes the document.
 \begin{document}
 
+
 \title{User-Defined Game Control \\for Smart Glasses in Public Space}
 
 
@@ -73,6 +77,7 @@ breaklinks=true,
 %\email{\{hcythomas0125,tony61507,huw12313212,silvia.chyou,evin92\}@gmail.com,\\ mikechen@csie.ntu.edu.tw}
 %}
 
+
 \maketitle
 
 
@@ -80,7 +85,9 @@ breaklinks=true,
 
 \begin{abstract}
 
-Without a controller or direct-touch, game control on smart glasses differs from existing console and mobile games. Although current game control on smart glasses is explored by developers based on system capability, the control set is not reflective of user behavior. We present a user-defined game control study in public space to collect user behavior without influence from system limitation. In all, 2448 game controls from 24 participants were logged, analyzed, and paired with think-aloud data for 17 commands performed with 3 interaction methods (In-Air, On-Body and Phone) and 2 different smart glasses (Google Glass and Epson BT-100). Our findings indicate that the user preference with \emph{In-Air} interaction is significant higher than \emph{Phone} controller, that users prefer to choose an unobtrusive control area with concerning social acceptance, and that different form factor of smart glasses does influence how users create control actions. We also present a complete user-defined game control set with agreement scores and taxonomy. Our results will help designers create better game controls informed by user behavior.
+
+Without a controller or direct-touch, game control on smart glasses differs from existing console and mobile games. Although current game control on smart glasses is explored by developers based on system capability, the control set is not reflective of user behavior. We present a user-defined game control study in public space to collect user behavior without influence from system limitation. In all, 2448 game controls from 24 participants were logged, analyzed, and paired with think-aloud data for 17 commands performed with 3 interaction methods (\emph{In-Air}, \emph{On-Body} and \emph{Phone}) and 2 different smart glasses (\emph{Google Glass} and \emph{Epson BT-100}). Our findings indicate that the user preference with \emph{In-Air} interaction is significant higher than \emph{Phone} controller, that users prefer to choose an unobtrusive control area with concerning social acceptance, and that different form factor of smart glasses does influence how users create control actions. We also present a complete user-defined game control set with agreement scores and taxonomy. Our results will help designers create better game controls informed by user behavior.
+
 
 % Game control on smart glasses differs from existing console and mobile games due to the lack of physical game controllers or direct-touch. Although current game control on smart glasses is explored by developers based on system capability, the set of controls is not reflective of user behavior. 
 % To create better game control, we presented a user-defined game control study in public space to collect user behavior. In all, 2448 game controls from 24 participants were logged, analyzed, and paired with think-aloud data for 17 commands performed with 3 interaction methods (\emph{In-Air}, \emph{On-Body} and \emph{Phone}), and On-Body method is inclusive of wearble devices' control. The study used 2 different forms of smart glasses (Google Glass and Epson BT-100) and users don't need to consider the system limitation. We find that users prefer using \emph{In-Air} and \emph{On-Body} inputs to perform the game controls in a relatively unobtrusive area, and that different forms of smart glasses do influence how users create control actions. Users will choose less noticeable control methods because of social acceptance. We also present a complete user-defined game control set with agreement scores and taxonomy data. 
