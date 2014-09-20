@@ -193,16 +193,17 @@ Our results will help designers create better game controls informed by user beh
 
     In developing a user-defined game control set, we did not want the limitation of input technology to influence the user's behavior. Hence, we sought to remove the \textsl{gulf of execution}\cite{gulf} from the dialogue, creating, in essence, a monologue in which the player's behavior is always acceptable. This enables us to observe the user's unrevised behavior, and drive system design to accommodate it.
 
-    In view of this, we developed a user-defined game control set by having 24 participants perform game tasks with 2 smart glasses (Google Glass and Epson BT-100) in a public cafe. To avoid bias from visual hints\cite{Epps:2006:SHS:1125451.1125601}, no elements specific to Mobile, Console or PC games were shown. Similarly, no specific game title was assumed. Instead, participants acted in a simple blocks world of geometry shapes or in the shape of a basic human avatar. Each participant saw the effect of a game control (e.g., an object moving left and right) and was asked to perform the game control he or she thought would use to cause that effect (e.g. moving their finger tip from left to right in front of their chest). 
+    In view of this, we developed a user-defined game control set by having 24 participants perform game tasks with smart glasses. To avoid bias from visual hints\cite{Epps:2006:SHS:1125451.1125601}, no elements specific to Mobile, Console or PC games were shown. Similarly, no specific game title was assumed. Instead, participants acted in a simple blocks world of geometry shapes or in the shape of a basic human avatar. Each participant saw the effect of a game control (e.g., an object moving left and right) and was asked to perform the game control he or she thought would use to cause that effect (e.g. moving their finger tip from left to right in front of their chest). 
 
-    Seventeen game tasks were presented, and game controls were elicited for three different interaction methods (\emph{In-Air}, \emph{On-Body}, \emph{Phone}). The system did not attempt to sense the user's control input, but we used a camera to record the whole process. Participants used the think-aloud protocol and were interviewed about the control details. They also provided subjective preference ratings.
+    Seventeen game tasks were presented, and game controls were elicited for three different interaction methods (\emph{In-Air}, \emph{On-Body}, \emph{Phone}) with 2 smart glasses (Google Glass, Epson BT-100). The system did not attempt to sense the user's control input, but we used a camera to record the whole process. Participants used the think-aloud protocol and were interviewed about the control details. They also provided subjective preference ratings.
 
     The final user-defined game control set was developed in light of the \textsl{agreement} found in the participants' preferred control action for each game task\cite{Wobbrock:2005:MGS:1056808.1057043}. The more participants that used the same action for a given task, the more likely that control action would be assigned to the task. In the end, our user-defined game control set emerged as a surprisingly consistent collection founded on actual user behavior.
     %這邊要研究一下......why "surprisingly consistent"
 
+    \subsection {Interaction Methods}
+    In our study, we asked users to define three control manners to satisfy three interaction requirements individually in each task. These three interaction types, classified according to familiar interactions explored by previous works, were \textsl{In-Air}, \textsl{On-Body}, and \textsl{Phone}. \textsl{In-Air}, one of these types, was that users were asked to define an input method without touching any tangible object, such as, moving eyeballs, rotating their heads, voice control or in-air gestures. Another method was \textsl{On-Body}, which asked users to design a control action by touching any skin, clothes or accessories on their own bodies. The last method, \textsl{Phone}, required users to create a game control by interacting with common always-available devices, mobile phones.    
 
     \subsection {Game Tasks}
-
     Casual game is one of the game categories with the most players\cite{esa_ef_2014}, and it is shown high potential in public gaming\cite{Jurgelionis:2011:PET:2027456.2027462,Reis:2012:EMC:2405577.2405651,Biskupski:2014:DEB:2559206.2580097}. We chose top 90 casual games\cite{TopGames} from existing platforms, including PCs, consoles and mobile games (30 games for each) by crawling and analyzing the sale and download count data from famous gaming websites\cite{appannie,VGChartz,Steam,GameStop}. We invited 3 experienced game developers to review these top 90 casual games. In these games they found 26 game tasks in total, and removed 9 tasks which were only used once in specific games. Finally, we got a set of general casual game task (shown in Table \ref{tab:table1}) with 17 tasks, which can completely support 90\% of our top casual games. 
 
   \begin{table}
@@ -253,6 +254,16 @@ Our results will help designers create better game controls informed by user beh
     \label{tab:table1}
   \end{table}
 
+\subsection {Form Factor of Glasses}
+  There are many smart glasses with different screen sizes and screen placements on the current market. To observe the effect of distinct display designs upon the study result, our study was conducted on two well known smart glasses with different form factors, the Epson BT-100 and Google Glass (see Figure \ref{fig:Glasses}). The display of the Epson BT-100 is located in front of the user's eyes with $960 \times 540$ resolution (equivalent of a 320" screen from 20 m away)\cite{BT100}. And Google Glass locates its display above the user's right eye with $640 \times 360$ resolution (equivalent of a 25" screen from 2.4 m away)\cite{GoogleGlass}.  
+
+  \begin{figure}[!h]
+  \centering
+  \includegraphics[width=1\columnwidth]{Glasses.pdf}
+  \caption{(A) Google Glass, (B) Epson BT-100.}
+  \label{fig:Glasses}
+  \end{figure}  
+
 
   \subsection {Participants}
   We recruited twenty-four participants with an equal male-female ratio for our study. Their average age was 23.2 (\textsl{sd} = 2.72). All participants are right-handed and none of them had past experience with smart glasses usage. About their gaming experience, according to our investigation, 14 users were daily game players, 9 were weekly players and 1 was a monthly player. Participants spent 1.36 hours (\textsl{sd} = 0.89) on average to play games one time. Moreover, 58\% of them indicated that their main gaming platforms were mobile phones, 38\% were on PCs, and only 4\% were on consoles. Another important factor of gaming experience is the familiarity of game controllers. The results showed that, compared with joysticks, most of them were more familiar with keyboards, mouses and touch screens (see Figure~\ref{fig:figureFamiliarity}).
@@ -280,20 +291,7 @@ Our results will help designers create better game controls informed by user beh
   \subsection {Environment}
   According to the previous works\cite{Wiliamson:2011:MMI:2070481.2070551,Williamson:2013:MEM:2522848.2522874,Montero:2010:YUS:1851600.1851647,Rico:2010:UGM:1753326.1753458}, the social acceptability of mobile-input was influenced by whether participants believed a bystander could interpret the intention of the control action. Therefore, to provide a game control set suited for a real-world environment, we chose a Starbucks cafe near our college. The visitor flow of the cafe, on average, was 72.5 persons per hour. In our investigation, participants indicated that the cafe was comparatively a public space with average 4.17 points (\textsl{sd}=0.65) on a 5-point Likert Scale about degree of field publicity (1 means very private, 5 means very public).    
 
-  \subsection {Form Factor of Glasses}
-  There are many smart glasses with different screen sizes and screen placements on the current market. To observe the effect of distinct display designs upon the study result, our study was conducted on two well known smart glasses with different form factors, the Epson BT-100 and Google Glass (see Figure \ref{fig:Glasses}). The display of the Epson BT-100 is located in front of the user's eyes with $960 \times 540$ resolution (equivalent of a 320" screen from 20 m away)\cite{BT100}. And Google Glass locates its display above the user's right eye with $640 \times 360$ resolution (equivalent of a 25" screen from 2.4 m away)\cite{GoogleGlass}.  
-
-  \begin{figure}[!h]
-  \centering
-  \includegraphics[width=1\columnwidth]{Glasses.pdf}
-  \caption{(A) Google Glass, (B) Epson BT-100.}
-  \label{fig:Glasses}
-  \end{figure}  
-
-
-    \subsection {Interaction Methods}
-    In our study, we asked users to define three control manners to satisfy three interaction requirements individually in each task. These three interaction types, classified according to familiar interactions explored by previous works, were \textsl{In-Air}, \textsl{On-Body}, and \textsl{Phone}. \textsl{In-Air}, one of these types, was that users were asked to define an input method without touching any tangible object, such as, moving eyeballs, rotating their heads, voice control or in-air gestures. Another method was \textsl{On-Body}, which asked users to design a control action by touching any skin, clothes or accessories on their own bodies. The last method, \textsl{Phone}, required users to create a game control by interacting with common always-available devices, mobile phones.    
-
+  
 
     \subsection {Procedure}
     Participants wore two different glasses (Epson BT-100 and Google Glass) and our software randomly presented 17 game tasks (Table \ref{tab:table1}) to participants. For each game task, participants performed a control action in 3 different interaction methods (\emph{In-Air}, \emph{On-Body} and \emph{Phone} interaction). The study was conducted using a counterbalanced measures design, alternating the glass's form and the interaction method. After each game control, participants were shown a 5-point Likert scale concerning subjective preference. With 24 participants, 17 game tasks, 2 glass forms and 3 interaction methods, a total of $24 \times 17 \times 2 \times 3$ = 2448 game controls were made. Of these, 11 were discarded due to participant confusion. 
