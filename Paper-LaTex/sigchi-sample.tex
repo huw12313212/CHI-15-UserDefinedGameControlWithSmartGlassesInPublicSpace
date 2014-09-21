@@ -229,7 +229,7 @@ The contribution of this paper are as follows:
 
     In a user-elicitation study, users were shown referents (an action's effects) and were asked to demonstrate the interactions that resulted in a given referent\cite{Wobbrock:2009:UGS:1518701.1518866}. In this work, we draw upon the user-elicitation methodology to identify user expectations and suggestions for smart glass gaming.
 
-\section{Developing a User-Defined Game Control Set}
+\section{Developing a User-Defined Game Input Set}
 %需要描述場域嘛？
 
 
@@ -238,15 +238,15 @@ The contribution of this paper are as follows:
 
     In developing a user-defined game input set, we did not want the limitation of input technology to influence the user's behavior. Hence, we sought to remove the \textsl{gulf of execution}\cite{gulf} from the dialogue, creating, in essence, a monologue in which the player's behavior is always acceptable. This enables us to observe the user's unrevised behavior, and drive system design to accommodate it.
 
-    In view of this, we developed a user-defined game input set by having 24 participants perform game tasks with smart glasses. To avoid bias from visual hints\cite{Epps:2006:SHS:1125451.1125601}, no elements specific to PCs, consoles and mobile games were shown. Similarly, no specific game title was assumed. Instead, participants acted in a simple blocks world of geometry shapes or in the shape of a basic human avatar. Each participant saw the effect of a game input (e.g. an object moving left and right) and was asked to perform the game control he or she thought would use to cause that effect (e.g. performing an in-air gesture to drag the object left and right, see Figure \ref{fig:TopFigure}). 
+    In view of this, we developed a user-defined game input set by having 24 participants perform game tasks with smart glasses. To avoid bias from visual hints\cite{Epps:2006:SHS:1125451.1125601}, no elements specific to PCs, consoles and mobile games were shown. Similarly, no specific game title was assumed. Instead, participants acted in a simple blocks world of geometry shapes or in the shape of a basic human avatar. Each participant saw the effect of a game input (e.g. an object moving left and right) and was asked to perform the game input action he or she thought would use to cause that effect (e.g. performing an in-air gesture to drag the object left and right, see Figure \ref{fig:TopFigure}). 
 
-    Seventeen game tasks were presented, and game inputs were elicited for three different interaction methods (\emph{handheld}, \emph{touch}, \emph{non-touch}) with 2 smart glasses (Google Glass, Epson BT-100). The system did not attempt to sense the user's control input, but we used a camera to record the whole process. Participants used the think-aloud protocol and were interviewed about the input details. They also provided subjective preference ratings.
+    Seventeen game tasks were presented, and game inputs were elicited for three different interaction methods (\emph{handheld}, \emph{touch}, \emph{non-touch}) with 2 smart glasses (Google Glass, Epson BT-100). The system did not attempt to sense the user's input action, but we used a camera to record the whole process. Participants used the think-aloud protocol and were interviewed about the input details. They also provided subjective preference ratings.
 
     The final user-defined game input set was developed in light of the \textsl{agreement} found in the participants' preferred input action for each game task\cite{Wobbrock:2005:MGS:1056808.1057043}. The more participants that used the same action for a given task, the more likely that input action would be assigned to the task. In the end, our user-defined game input set emerged as a surprisingly consistent collection founded on actual user behavior.
     %這邊要研究一下......why "surprisingly consistent"
 
     \subsection {Interaction Methods}
-    In our study, we asked users to define three input manners to satisfy three interaction requirements individually in each task. These three interaction types, classified according to familiar interactions explored by previous works, were \textsl{handheld}, \textsl{touch}, and \textsl{non-touch}. \textsl{handheld}, one of these types, required users to create a game control by interacting with common portable devices, mobile phones. Another method was \textsl{touch}, which asked users to design a control action by touching any skin, clothes or accessories on their own bodies. The last method, \textsl{non-touch}, was that users were asked to define an input method without touching any tangible object, such as, moving eyeballs, rotating their heads, voice control or in-air gestures. 
+    In our study, we asked users to define three input manners to satisfy three interaction requirements individually in each task. These three interaction types, classified according to familiar interactions explored by previous works, were \textsl{handheld}, \textsl{touch}, and \textsl{non-touch}. \textsl{handheld}, one of these types, required users to create a game input by interacting with common portable devices, mobile phones. Another method was \textsl{touch}, which asked users to design a input action by touching any skin, clothes or accessories on their own bodies. The last method, \textsl{non-touch}, was that users were asked to define an input method without touching any tangible object, such as, moving eyeballs, rotating their heads, voice control or in-air gestures. 
 
     \subsection {Game Tasks}
     Casual game is one of the game categories with the most players\cite{esa_ef_2014}, and it is shown high potential in public gaming\cite{Jurgelionis:2011:PET:2027456.2027462,Reis:2012:EMC:2405577.2405651,Biskupski:2014:DEB:2559206.2580097}. We chose top 90 casual games\cite{TopGames} from existing platforms, including PCs, consoles and mobile games (30 games for each) by crawling and analyzing the sale and download count data from famous gaming websites\cite{appannie,VGChartz,Steam,GameStop}. We invited 3 experienced game developers to review these top 90 casual games. In these games they found 26 game tasks in total, and removed 9 tasks which were only used once in specific games. Finally, we got a set of general casual game task (shown in Table \ref{tab:table1}) with 17 tasks, which can completely support 90\% of our top casual games. 
@@ -291,7 +291,7 @@ The contribution of this paper are as follows:
       \hline
       16 & Avatar squat & Temple Run, Minecraft\\
       \hline
-      17 & Viewport control & The Sim, Spore\\
+      17 & Control 3D viewport & The Sim, Spore\\
       \hline
 
     \end{tabular}
@@ -339,17 +339,17 @@ The contribution of this paper are as follows:
   
 
     \subsection {Procedure}
-    Participants wore two different glasses (Google Glass and Epson BT-100) and our software randomly presented 17 game tasks (Table \ref{tab:table1}) to participants. For each game task, participants performed a control action in 3 different interaction methods (\emph{handheld}, \emph{touch} and \emph{non-touch} interaction). The study was conducted using a counterbalanced measures design, alternating the glass's form and the interaction method. After each game input, participants were shown a 5-point Likert scale concerning subjective preference and conducted a short interview about input detail. With 24 participants, 17 game tasks, 2 glass forms and 3 interaction methods, a total of $24 \times 17 \times 2 \times 3$ = 2448 game controls were made. Of these, 11 were discarded due to participant confusion. 
+    Participants wore two different glasses (Google Glass and Epson BT-100) and our software randomly presented 17 game tasks (Table \ref{tab:table1}) to participants. For each game task, participants performed a input action in 3 different interaction methods (\emph{handheld}, \emph{touch} and \emph{non-touch} interaction). The study was conducted using a counterbalanced measures design, alternating the glass's form and the interaction method. After each game input, participants were shown a 5-point Likert scale concerning subjective preference and conducted a short interview about input detail. With 24 participants, 17 game tasks, 2 glass forms and 3 interaction methods, a total of $24 \times 17 \times 2 \times 3$ = 2448 game input actions were made. Of these, 11 were discarded due to participant confusion. 
 
 \section{Results}
 
 Our results include game input taxonomies, user-defined game input sets, user rating, subjective responses, and qualitative observations for each interaction method.
 
   \subsection{Preference Between Interaction Methods}
-  Table \ref{tab:tablePreferenceInteractionMethod} shows the average rating of 3 interaction methods. Three interaction types had a significant rating difference ($F_{0.05}$(2, 2445)=4.61, P = .01). We found that the user rating preference for \emph{In-Air} was significantly higher than for \emph{Phone} (P = .009). And we didn't find a significant difference between \emph{In-Air} and \emph{On-Body} (P = .688).
+  Table \ref{tab:tablePreferenceInteractionMethod} shows the average rating of 3 interaction methods. Three interaction types had a significant rating difference ($F_{0.05}$(2, 2445)=4.61, $p$ = .01). We found that the user rating preference for \emph{non-touch} was significantly higher than for \emph{handheld} ($p$ = .009). And we didn't find a significant difference between \emph{touch} and \emph{non-touch} ($p$ = .688).
   % , or on-body and phone interaction (P = .086). 
-  In the interview conducted after the rating, we asked why users gave \emph{Phone} a lower preference score.
-  The general reason was that users had to take out their phones from their pocket. Users thought the mobile phone was not always available and was not hands-free compared to the other interaction methods in this study. Considering the user preference, our report will focus on the results of \emph{In-Air} and \emph{On-Body}.
+  In the interview conducted after the rating, we asked why users gave \emph{handheld} a lower preference score.
+  The general reason was that users had to take out their controller ,eg. phone, from their pocket. Users thought the handheld controller was not always-available and was not hands-free compared to the other interaction methods in this study. Considering the user preference, our report will focus on the results of \emph{touch} and \emph{non-touch}.
 
   \begin{table}
     \centering
@@ -439,7 +439,7 @@ Our results include game input taxonomies, user-defined game input sets, user ra
 
   \subsubsection{Taxonomy of Game Input}
        
-  As the authors we manually classified the control actions along four dimensions: \emph{form}, \emph{binding}, \emph{nature}, and \emph{flow}. Within each dimension there are multiple categories as shown in Table \ref{tab:taxonomy}. To verify the objectivity (or inter-rater reliability), we invited an independent rater who performed the same categorization using 170 trials (10 trials were randomly selected for each task). The inter-rater reliability is shown in Table \ref{tab:kappa}. The lowest Kappa value, .688, is greater than .6, which is rated as \textsl{substantial} and thus is sufficient to establish the validity of the categorization. In addition, the average Kappa value is .897. A Kappa value of .8 and higher is considered \textsl{almost perfect}\cite{kappavalue}.
+  As the authors we manually classified the input actions along four dimensions: \emph{form}, \emph{binding}, \emph{nature}, and \emph{flow}. Within each dimension there are multiple categories as shown in Table \ref{tab:taxonomy}. To verify the objectivity (or inter-rater reliability), we invited an independent rater who performed the same categorization using 170 trials (10 trials were randomly selected for each task). The inter-rater reliability is shown in Table \ref{tab:kappa}. The lowest Kappa value, .688, is greater than .6, which is rated as \textsl{substantial} and thus is sufficient to establish the validity of the categorization. In addition, the average Kappa value is .897. A Kappa value of .8 and higher is considered \textsl{almost perfect}\cite{kappavalue}.
 
 
 
@@ -549,7 +549,7 @@ The \emph{Form} dimension for \emph{touch} input and the the \emph{Form} dimensi
    The user-defined game input set was developed by taking largest groups with identical input action for each game task and then assigned those groups' action to the task. 
    Our results of the user-defined game input set covered game inputs with \emph{touch} and \emph{non-touch} with 41.32\% and 40.07\% respectively. Our user defined set is useful, therefore, not just for what it contains, but also for what it omits.
 
-      All the inputs in our final \emph{touch} input set are finger related (see Figure \ref{fig:OnBodyInputSet}). Most of them use single finger tip to perform gestures on different surfaces. And the most preferable surface for \emph{touch} input is hand palm. These controls seem like an trackpad or a proxy touch-screen. The remained inputs are fingers interaction with single hand. Specifically, users use thumb to interact with index finger or ring.
+      All the inputs in our final \emph{touch} input set are finger related (see Figure \ref{fig:OnBodyInputSet}). Most of them use single finger tip to perform gestures on different surfaces. And the most preferable surface for \emph{touch} input is hand palm. These input actions seem like an trackpad or a proxy touch-screen. The remained inputs are fingers interaction with single hand. Specifically, users use thumb to interact with index finger or ring.
 
    With \emph{non-touch} (see Figure \ref{fig:InAirSet}), although we informed users to perform game input not limited with hands in advance, the result showed that users still preferred to use hand inputs rather than voice controls, eye gestures and head tilting. Additionally, users would make use of direct-control if they had to perform precise task, such as selecting an object from many or moving an object to the specific position. As other tasks with lower precision requirement, such as selecting a single option from 4 or enabing an avatar jump. Users would prefer using an indirect-control. For example, users tapped 4 different area in front of their chest or raised hands slightly.
 
@@ -592,7 +592,7 @@ The \emph{Form} dimension for \emph{touch} input and the the \emph{Form} dimensi
   \begin{figure}[!h]
   \centering
   \includegraphics[width=1\columnwidth]{InAirControlArea.pdf}
-  \caption{1.The top 4 \emph{non-touch} interaction forms. Percentage indicates the portion of \emph{non-touch} game inputs. (A)Using finger to perform in-air gesture. (B)Using full hand to perform in-air gesture. (C)Using head-tilting or rotating to perform game control. (D)Using eye-gestures to perform game control. 2.The portion of in-air gesture control area. Half of in-air gestures (49\%) were performed in front of their chest, 14\% were in front of belly or below, and only 37\% gestures were performed in front of their face.}
+  \caption{1.The top 4 \emph{non-touch} interaction forms. Percentage indicates the portion of \emph{non-touch} game inputs. (A)Using finger to perform in-air gesture. (B)Using full hand to perform in-air gesture. (C)Using head-tilting or rotating to perform game input. (D)Using eye-gestures to perform game input. 2.The portion of in-air gesture input area. Half of in-air gestures (49\%) were performed in front of their chest, 14\% were in front of belly or below, and only 37\% gestures were performed in front of their face.}
   \label{fig:figureInAirPorpotion}
   \end{figure}
 
@@ -600,7 +600,7 @@ The \emph{Form} dimension for \emph{touch} input and the the \emph{Form} dimensi
   \begin{figure*}
   \centering
   \includegraphics[width=1\textwidth]{OnBodyInputSet.pdf}
-  \caption{The user-defined game input set with \emph{touch} inputs. The percentage indicate the portion of users who perform the input action for the game task. Note that, there are 3 tasks (``Move in 4 directions'',``Avatar 3D Move'',``Viewport Control'') have been assigned with an identical input action.}
+  \caption{The user-defined game input set with \emph{touch} inputs. The percentage indicate the portion of users who perform the input action for the game task. Note that, there are 3 tasks (``Move in 4 directions'',``Avatar 3D Move'',``Control 3D viewport'') have been assigned with an identical input action.}
   \label{fig:OnBodyInputSet}
   \end{figure*}
 
