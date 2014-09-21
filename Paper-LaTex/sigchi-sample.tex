@@ -121,8 +121,9 @@ In addition, users preferred interaction that are less noticeable due to concern
  %  but strongly encouraged.}
 }
 
-\category{K.8.0.}{General}Games; {H.5.2.}{Information Interfaces and Presentation}
-: User Interfaces - \emph{Interaction styles, evaluation/methodology, user-centered design.}
+%\category{K.8.0.}{General}Games; {H.5.2.}{Information Interfaces and Presentation}
+%: User Interfaces - \emph{Interaction styles, evaluation/methodology, user-centered design.}
+
 % See: \url{http://www.acm.org/about/class/1998/}
 % for more information and the full list of ACM classifiers
 % and descriptors. \newline
@@ -145,12 +146,12 @@ In addition, users preferred interaction that are less noticeable due to concern
 %Emerging wearable computing devices atrract extensive attention worldwide. 
 Smart glasses provides always-available displays and offer the opportunity for instantly available information and pervasive gaming experiences. 
 %We can play a game without any setup, like taking out the mobile phone from the pocket. 
-Compared to game consoles and mobile gaming devices, smart glasses do not have touchscreens and currently do not support handheld gaming controllers.
+Compared to game consoles and mobile gaming devices, smart glasses do not have touchscreens and currently do not support handheld controllers specifically designed for gaming.
 Current smart glasses, such as Google Glass and the Epson Moverio, support input via voice, touchpads, cameras, gyroscopes, accelerometers, and GPS.
 Games designed specifically for Google Glass \cite{MiniGames} utilize these sensors as game control. 
 % ``Balance'' uses gyroscopes to capture users' head tilt, 
 For example, ``Clay Shooter'' utilizes the user's voice to trigger a shotgun, and ``Shape Splitter'' detects in-air gestures via the built-in cameras. 
-For the Epson Moverio glasses, wired trackpads are used as handheld game controllers.
+For the Epson Moverio glasses, wired trackpads are used as handheld controllers.
 
 % Nevertheless, what kinds of control actions do regular users make naturally? In the users' minds, what characteristics are important for such game controls? Will they prefer in-air gestures or just a physical controller? How consistent are game controls employed by different users for the same game task? 
 % Although designers may organized their game controls in a principled, logical fashion, user behavior is rarely so systematic. As McNeill \cite{HandAndMind} writes in his laborious study of human discursive gesture, ``Indeed, the important thing about gestures is that they are \emph{not} fixed. They are free and reveal the idiosyncratic imagery of thought''.
@@ -163,16 +164,16 @@ For input tasks, we analyzed 90 popular games to identify the game controls used
 In order to compare different types of interaction while keeping the experiment tractable, we grouped the different types of input into the following 3 classes:
 \begin{itemize}
   \item \emph{handheld}: input types that make use of handheld controllers, such as smartphones and the wired trackpads used by Sony's SmartEyeglass and Epson's Moverio glasses.
-  \item \emph{touch}: non-handheld touch input, such as gesturing and tapping on body surfaces and touch-sensing wearable devices (e.g. smart rings, watches, and glasses). These provide tactile feedback.
+  \item \emph{touch}: non-handheld touch input, such as gesturing and tapping on body surfaces, and touch-sensing wearable devices (e.g. smart rings, watches, and glasses). These provide tactile feedback.
   \item \emph{non-touch}: non-handheld, non-touch input, such as in-air gestures, head/body movement, and voice recognition. These do not have tactile feedback.
 \end{itemize}
  
-We recruited 24 participants and asked them to wear the two form factors of smart glasses in a coffee shop. On-screen instructions prompted participants to perform each of the 17 common game control tasks using the 3 classes of input types. For each control task and input type, participants explored then suggested an interaction, and then rated their preferences for the 3 interactions for that task and form factor.  Overall, each participant suggested 102 interactions, for a total of 2448. 
+We recruited 24 participants and asked them to wear the two form factors of smart glasses in a coffee shop. On-screen instructions prompted participants to perform each of the 17 common game control tasks using the 3 classes of input types. For each game control task, form factor, and input type, participants first explored all possible interactions they could think of, then reported the one they most preferred. After completing the 3 types of interactions for that task and form factor, they then rated their preferences for 3 interactions.  Overall, each participant reported 102 interactions, for a total of 2448. 
 
 We collected quantitative and qualitative data through video analysis, preference ratings, and interviews. 
 Our key observations are as follows:
 \begin{itemize}
-  \item Participants significantly preferred non-handheld interactions (3.81 and 3.77 on a 5-point Likert scale) over handheld (3.68, $p$\textless 0.01).
+  \item Participants significantly preferred non-handheld, non-touch interactions over handheld interactions (3.81  vs 3.68 on a 5-point Likert scale, $p$\textless 0.01).
   \item For touch input without using handheld devices, users preferred interacting with their body surface over wearable devices (80\% vs 20\%), and the most frequently used body surface was the palm (51\%).
   \item Participants preferred interaction that are more subtle due to concerns with social acceptance. Also, participants preferred using in-air gestures in front of the torso than in front of the face (63\% vs 37\%), even though those gestures were reported to be less intuitive and less precise.
   \item There is signifiant mismatch between participants' preferred input methods and those supported by the current smart glasses. For example, less than 2\% of the participants used voice and less than 2\% of the participants used touch input on the smart glasses -- which are Google Glass' two primary input methods. In addition, current cameras can only detect in-air gestures in front of users' faces, missing most 63\% of the gestures performed.
@@ -184,7 +185,7 @@ Our key observations are as follows:
  
 The contribution of this paper are as follows:
 (1) the first quantitative and qualitative characterization of user-defined input for games on smart glasses, including a taxonomy, 
-(2) sets of user-defined input for common game tasks for 3 different classes of input methods, 
+(2) sets of user-defined input for common game tasks for non-handheld input methods, 
 (3) identified research directions for input sensing to improve the user experience of smart glasses.
 
 
