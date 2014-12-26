@@ -150,12 +150,19 @@ For the Epson Moverio glasses, wired trackpads are used as handheld controllers.
 
  \begin{figure}[!t]
   \centering
-  \includegraphics[width=0.8\columnwidth]{TopFigure2.pdf}
+  \includegraphics[width=1\columnwidth]{TopFigure2.pdf}
   \caption{A study participant performing an in-air gesture to drag an object seen through the immersive smart glasses in a public coffee shop.}
   \label{fig:TopFigure}
   \end{figure} 
 
 To better inform the interaction design of games for smart glasses, we aimed to explore the design space without being constrained by the capabilities of current sensors. We used the guessability study methodology \cite{Wobbrock:2005:MGS:1056808.1057043}, and presented the \emph{effects} of game controls to the participants in a real-world, public environment. We then elicited what the participants felt was the most appropriate \emph{causes} to invoke the corresponding effects. 
+
+    \begin{figure}[!b]
+  \centering
+  \includegraphics[width=1\columnwidth]{Glasses.pdf}
+  \caption{(A) Epson Moverio, (B) Google Glass.}
+  \label{fig:Glasses}
+  \end{figure}
 
 For input tasks, we analyzed 90 popular games to identify the game controls used by more than one game, which resulted in a set of 17 tasks. We also explored the form factors of smart glasses displays, and included both types in the study: 1) \emph{immersive}, with display content spanning users' field of view (e.g. Epson and Sony's smart glasses), and 2) \emph{off-to-the-side}, with display content in the corners of users' field of view (e.g. Google Glass).
 
@@ -166,6 +173,8 @@ In order to compare different types of interaction while keeping the experiment 
   \item \emph{non-touch}: non-handheld, non-touch input, such as in-air gestures, head/body movement, and voice recognition. These do not have tactile feedback.
 \end{itemize}
  
+
+
 We recruited 24 participants and asked them to wear the two form factors of smart glasses in a coffee shop. On-screen instructions prompted participants to perform each of the 17 common game control tasks using the 3 classes of input types. For each game control task, form factor, and input type, participants first explored all possible interactions they could think of, then reported the one they most preferred. After completing the 3 types of interactions for that task and form factor, they then rated their preferences for 3 interactions.  Overall, each participant reported 102 interactions, for a total of 2448. 
 
 We collected quantitative and qualitative data through video analysis, preference ratings, and interviews. 
@@ -214,15 +223,17 @@ Our results will help designers create better smart glasses gaming experience in
 \section{Related Work}
 
     \subsection{Game Input}
-    There are two main research fields related to game controls. One is comparing existing game inputs with player experience. For examples, 
-    Cairns et al.\cite{Cairns:2014:ICI:2556288.2557345} looked at how the naturalness of the game inputs influences the experience of immersion in mobile games; 
-    The study of Birk et al.\cite{Birk:2013:CYG:2470654.2470752} showed that there were a number of controller effects on player experience and in-game player personality; 
-    Lankes et al.\cite{Lankes:2012:CVC:2367616.2367629} investigated the relationship between the feeling of being in control in a game situation and the interaction complexity; 
-    Park et al.\cite{Park:2014:HFS:2556288.2557091} examined the characteristics of a speed-based exergame controller that bears on human factors; 
-    Hsu et al.\cite{Hsu:2014:GSE:2663204.2669623} compared the different game inputs, including head gestures, voice control, handheld controller, joysticks, eye winking and glass touchpad, for First-Person Shooter(FPS) game on smart glasses; 
+    %There are two main research fields related to game controls. One is comparing existing game inputs with player experience. For examples, 
+    %Cairns et al.\cite{Cairns:2014:ICI:2556288.2557345} looked at how the naturalness of the game inputs influences the experience of immersion in mobile games; 
+   % The study of Birk et al.\cite{Birk:2013:CYG:2470654.2470752} showed that there were a number of controller effects on player experience and in-game player personality; 
+    %Lankes et al.\cite{Lankes:2012:CVC:2367616.2367629} investigated the relationship between the feeling of being in control in a game situation and the interaction complexity; 
+    %Park et al.\cite{Park:2014:HFS:2556288.2557091} examined the characteristics of a speed-based exergame controller that bears on human factors; 
+ 
     %Cheema et al.\cite{Cheema:2011:WWT:2159365.2159407} explored aspects of player's experience in first person games that use 3D gestures for interaction.
-
-    Another field is to explore new kinds of game control inputs. Previous works\cite{Vickers:2013:PLT:2531922.2514856,Sundstedt:2010:GGU:1837101.1837106} shows the possibility to use eye gestures as game inputs; Christian et al.\cite{Christian:2014:VSI:2559206.2580103} and Yim et al.\cite{Yim:2008:EDD:1496984.1497033} provided novel techniques for users to interact with games by head-gesture; Harada et al.\cite{Harada:2011:VGI:2042053.2042059} and Sporka et al. \cite{Sporka:2006:NIS:1168987.1169023} both indicated that the voice input greatly expanded the scope of games that could be played hands-free and just counted on voice input; Baba et al.\cite{Baba:2007:VGU:1278280.1278285} presented a game prototype which treated skin contact as controller input; Nacke et al.\cite{Nacke:2011:BGD:1978942.1978958} even considered using biofeedback (including EMG, EDA, EKG, RESP, TEMP) as game input methods.
+    There are many previous works exploring new kinds of game controls and pushing the limit of game design. Vickers et al.\cite{Vickers:2013:PLT:2531922.2514856} showed the possibility to use eye gestures as game inputs; Christian et al.\cite{Christian:2014:VSI:2559206.2580103} and Yim et al.\cite{Yim:2008:EDD:1496984.1497033} provided novel techniques for users to interact with games by head-gesture; 
+    Harada et al.\cite{Harada:2011:VGI:2042053.2042059} and Sporka et al. \cite{Sporka:2006:NIS:1168987.1169023} both indicated that the voice input greatly expanded the scope of games that could be played hands-free and just counted on voice input; 
+    Baba et al.\cite{Baba:2007:VGU:1278280.1278285} presented a game prototype which treated skin contact as controller input; Nacke et al.\cite{Nacke:2011:BGD:1978942.1978958} even considered using biofeedback (including EMG, EDA, EKG, RESP, TEMP) as game input methods;
+    Hsu et al.\cite{Hsu:2014:GSE:2663204.2669623} compared the different game inputs, including head gestures, voice control, handheld controller, joysticks, eye winking and glass touchpad, for First-Person Shooter(FPS) game on smart glasses; 
 
 
     \subsection{Mobile Input Technology}
@@ -232,14 +243,14 @@ Our results will help designers create better smart glasses gaming experience in
 
     Kim et al.\cite{Kim:2012:DFI:2380116.2380139} developed a wrist-worn architecture, which supports discrete gesture recognition with reconstructing a 3D hand model in the air. Similarly, Jing et al.\cite{Jing:2013:MRS:2541831.2541875} implemented \textsl{Magic Ring}, a finger ring shaped input device using inertial sensors to detect subtle finger gestures; Cola\c{c}o et al.\cite{Colaco:2013:MCL:2501988.2502042} built a head-mounted display, \textsl{Mime}, sensing 3D gestures in front of the user's eyes. 
 
-    \subsection{Input Gestures in HCI}
+    \subsection{Gestures in HCI}
     Gesture-based interfaces are already common in a variety of application domains such as gaming, virtual or augmented reality and mobile devices\cite{karam2005taxonomy}. Aigner et al.\cite{aigner2012understanding} conducted a study of human preferences in usage of gesture types for HCI and indicated that, depending on the meaning of the gesture, there is preference in the usage of gesture types;
     Nielsen et al.\cite{nielsen2004procedure} pointed out some important issues in choosing the set of gestures for the interface from a user-centred view such as the learning rate, ergonomics, and intition;
     Grijincu et al.\cite{Grijincu:2014:UIG:2669485.2669511} presented a video-based gesture dataset and a methodology for annotating video-based gesture datasets; 
     Recently, Piumsomboon et al.\cite{Piumsomboon:2013:UGA:2468356.2468527} have developed a user-defined gesture set for augmented reality applications. In our work, we focus on exploring relevant input gestures for gaming on smart glasses in public space.
 
     \subsection{User Elicitation Studies}
-    User-elicitation studies are a specific type of participatory design methodology that involves end-users in the design of control-sets\cite{Good:1984:BUI:358274.358284,Morris:2012:WWI:2396636.2396651}. These studies had been used to design user interfaces of various types including multi-touch gestures on small and large surfaces\cite{Anthony:2012:IRC:2396636.2396671,Wobbrock:2009:UGS:1518701.1518866,Findlater:2012:BQA:2207676.2208660} and multi-modal interactions \cite{Morris:2012:WWI:2396636.2396651}. There is also some evidence that user-defined control sets are more complete than those sets defined solely by experts\cite{Anthony:2012:IRC:2396636.2396671,Pyryeskin:2012:CEG:2396636.2396638,Wobbrock:2009:UGS:1518701.1518866}.
+    User-elicitation studies are a specific type of participatory design methodology that involves end-users in the design of control-sets\cite{Morris:2012:WWI:2396636.2396651}. These studies had been used to design user interfaces of various types including multi-touch gestures on small and large surfaces\cite{Anthony:2012:IRC:2396636.2396671,Wobbrock:2009:UGS:1518701.1518866,Findlater:2012:BQA:2207676.2208660} and multi-modal interactions \cite{Morris:2012:WWI:2396636.2396651}. There is also some evidence that user-defined control sets are more complete than those sets defined solely by experts\cite{Anthony:2012:IRC:2396636.2396671,Pyryeskin:2012:CEG:2396636.2396638,Wobbrock:2009:UGS:1518701.1518866}.
 
     In a user-elicitation study, users were shown referents (an action's effects) and were asked to demonstrate the interactions that resulted in a given referent\cite{Wobbrock:2009:UGS:1518701.1518866}. In this work, we draw upon the user-elicitation methodology to identify user expectations and suggestions for smart glass gaming.
 
@@ -315,12 +326,7 @@ Our results will help designers create better smart glasses gaming experience in
     \label{tab:table1}
   \end{table}
 
-    \begin{figure}[!h]
-  \centering
-  \includegraphics[width=1\columnwidth]{Glasses.pdf}
-  \caption{(A) Epson Moverio, (B) Google Glass.}
-  \label{fig:Glasses}
-  \end{figure}
+
 
 \subsection {Form Factor of Glasses}
 We explored the form factors of smart glasses displays, and included both types in the study: 1) \emph{immersive}, with display content spanning users' field of view (e.g. Epson Moverio), and 2) \emph{off-to-the-side}, with display content in the corners of users' field of view (e.g. Google Glass)
@@ -330,7 +336,7 @@ The display of the Epson Moverio is located in front of the user's eyes with $96
 
   \begin{figure}[!h]
   \centering
-  \includegraphics[width=1\columnwidth]{Familiarity.pdf}
+  \includegraphics[width=0.8\columnwidth]{Familiarity.pdf}
   \caption{Users' game input familiarity.}
   \label{fig:figureFamiliarity}
   \end{figure}  
@@ -354,7 +360,7 @@ The display of the Epson Moverio is located in front of the user's eyes with $96
  
 
   \subsection {Environment}
-  According to the previous works\cite{Wiliamson:2011:MMI:2070481.2070551,Williamson:2013:MEM:2522848.2522874,Montero:2010:YUS:1851600.1851647,Rico:2010:UGM:1753326.1753458}, the social acceptability of mobile-input was influenced by whether participants believed a bystander could interpret the intention of the input action. Therefore, to provide a game input set suited for a real-world environment, we chose a Starbucks cafe near our college. The visitor flow of the cafe, on average, was 72.5 persons per hour. In our investigation, participants indicated that the cafe was comparatively a public space with average 4.17 points (\textsl{sd}=0.65) on a 5-point Likert Scale for degree of field publicity (1 means very private, 5 means very public).    
+  According to the previous works\cite{Williamson:2013:MEM:2522848.2522874,Montero:2010:YUS:1851600.1851647}, the social acceptability of mobile-input was influenced by whether participants believed a bystander could interpret the intention of the input action. Therefore, to provide a game input set suited for a real-world environment, we chose a Starbucks cafe near our college. The visitor flow of the cafe, on average, was 72.5 persons per hour. In our investigation, participants indicated that the cafe was comparatively a public space with average 4.17 points (\textsl{sd}=0.65) on a 5-point Likert Scale for degree of field publicity (1 means very private, 5 means very public).    
 
   
 
@@ -587,12 +593,12 @@ The participant agreement for our study is pictured in Figure \ref{fig:Agreement
     \subsubsection{Social Acceptance and Input Area}
     To our surprise, approximately 63\% of the in-air gestures were not performed in front of the face (See Figure \ref{fig:figureInAirPorpotion}.2). This behavior conflicts with the current ``Google Glass'' design. There were 7 participants who performed most gestures in front of their face. They indicated that input in front of the face was more precise and intuitive. At the same time, the other 17 participants preferred to perform in-air gestures in front of or below their chest. Among them, there were 3 participants who didn't perform a single in-air gesture in front of their face. These users indicated that moving a finger in front of their face was weird and not socially acceptable. They also noted that there was a hand fatigue problem if they had to lift their hand in front of their face all the time, so they thought that it was not suitable for gaming.
 
-    \subsubsection{Bias by Existing Game Input}
-    Although we were careful not to show elements from traditional game platforms like PCs, consoles and mobile games, participants still often reasoned based on their previous gaming experience. For example, some input actions were performed as if using a touch-screen in front of their face (see Figure \ref{fig:InAirSet}\{A,F,G\}). Some actions were like using an imaginary trackpad on an in-air surface or on the hand palm(see Figure \ref{fig:OnBodyInputSet}\{B,D,E,H,I,K,N,Q\} and Figure \ref{fig:InAirSet}\{H,I\}). Even with simple shapes and basic characters, it was clear how deeply rooted the previous gaming experience is. Some quotes reveal this: ``So I just click a button like on a game controller'', ``Can I just imagine there is a trackpad on my palm?'' and ``It's an imaginary touch-screen.''
+    %\subsubsection{Bias by Existing Game Input}
+    %Although we were careful not to show elements from traditional game platforms like PCs, consoles and mobile games, participants still often reasoned based on their previous gaming experience. For example, some input actions were performed as if using a touch-screen in front of their face (see Figure \ref{fig:InAirSet}\{A,F,G\}). Some actions were like using an imaginary trackpad on an in-air surface or on the hand palm(see Figure \ref{fig:OnBodyInputSet}\{B,D,E,H,I,K,N,Q\} and Figure \ref{fig:InAirSet}\{H,I\}). Even with simple shapes and basic characters, it was clear how deeply rooted the previous gaming experience is. Some quotes reveal this: ``So I just click a button like on a game controller'', ``Can I just imagine there is a trackpad on my palm?'' and ``It's an imaginary touch-screen.''
 
 \begin{figure}[!t]
     \centering
-    \includegraphics[width=0.9\columnwidth]{OnBodyForms.pdf}
+    \includegraphics[width=0.8\columnwidth]{OnBodyForms.pdf}
     \caption{The top 6 \emph{touch} input forms. Percentage indicates the portion of \emph{touch} input actions. (A)Interaction between finger and palm. (B)Interaction between finger and ring. (C)Interaction between fingers. (D)Interaction between finger and leg. (E)Interaction between finger and back of hand. (F)Interaction between finger and watch.}
     \label{fig:figureOnBodyPorpotion}
     \end{figure}   
@@ -633,27 +639,22 @@ The participant agreement for our study is pictured in Figure \ref{fig:Agreement
     Before our study, both Google Glass and Mime\cite{GoogleGlass, Colaco:2013:MCL:2501988.2502042} supplied their own in-air gesture sets to increase the diversity of their input. However, our results show that 63\% of the in-air gestures are not performed in front of the user's face in the public space due to the social acceptance issues and physical tiring problems mentioned before (see Figure \ref{fig:figureInAirPorpotion}.2). Therefore, if the developers of head-worn devices want to implement in-air gestures for input, they will need to have the capability to sense gestures in a wide range of areas near the user other than only right in front of the face. Take CV-based sensing technologies for example, instead of a regular lens, we could use a wide-angle lens or fish-eye lens to implement a system to cater to the user's preference.   
   \begin{figure}[!h]
   \centering
-  \includegraphics[width=0.9\columnwidth]{InAirControlArea.pdf}
+  \includegraphics[width=0.8\columnwidth]{InAirControlArea.pdf}
   \caption{1. The top 4 \emph{non-touch} interaction forms. Percentages indicate the portion of \emph{non-touch} game inputs that consisted of the pictured input. (A) Using a finger to perform an in-air gesture. (B) Using the full hand to perform an in-air gesture. (C) Using head-tilting or rotating to perform game input. (D) Using eye-gestures to perform game input. 2. The distribution of the in-air gesture input area. Half of the in-air gestures (49\%) were performed in front of the chest, 14\% in front of or below the belly, and only 37\% of the gestures were performed in front of the face.}
   \label{fig:figureInAirPorpotion}
   \end{figure}
 
 
-
-
-
-
-
   \subsubsection{Implications for Game Design}
   According to the agreement scores we found that, no matter if using \emph{touch} interaction or \emph{non-touch} input, the average agreement between users was only .26, and the highest agreement was just about .55 (see Figure \ref{fig:Agreement}). In this case, guessing the game inputs would become a frustrating experience for players. It indicated that game developers should design the visual guide carefully to lead users performimg the input action, or show a instruction to explain the input methods.
 
-
-
+  \subsubsection{Contribution to non-gaming scenarios}
+  When we first set out to explore interaction design for smart glasses, we focused on a specific domain in order to gain deeper insight and to keep the study tractable. Looking back at the results, some the study findings do apply to non-gaming scenaros. For example many of our tasks are also used in non-gaming applications, such as ``Select single from many'', ``Vertical menu'', ``Horizontal menu'', ``Move left and right'', ``Move in 4 directions'', ``Move object to position'', ``Draw a path'' and ``Rotate an object''. Also, study results showed that social acceptance was a significant concern in public space. For example, users preferred in-air gestures in front of the torso rather than in front of their faces (63\% vs 37\%). Current cameras can only detect in-air gestures in front of users’ faces and would miss 63\% of the gestures performed.
 
   %\subsubsection{Implications for User Interfaces}
   \subsubsection{Limitation and Next Steps}
 
-  In our work, we showed every single game task independently to the participants. Participants designed inputs for these tasks without an overview of all tasks. The input actions in our resulting set might have conflicted with each other if we wanted to perform two or three inputs simultaneously. For example, with \emph{touch} input, users would maybe feel uncomfortable to ``Move in 4 directions'' and perform ``Avatar attack'' at the same time (see Figure \ref{fig:OnBodyInputSet}\{E,O\}). In the future work, we will try to show users a combination of multiple tasks and to understand more about the difference of the users' behavior under this circumstance.
+  %In our work, we showed every single game task independently to the participants. Participants designed inputs for these tasks without an overview of all tasks. The input actions in our resulting set might have conflicted with each other if we wanted to perform two or three inputs simultaneously. For example, with \emph{touch} input, users would maybe feel uncomfortable to ``Move in 4 directions'' and perform ``Avatar attack'' at the same time (see Figure \ref{fig:OnBodyInputSet}\{E,O\}). In the future work, we will try to show users a combination of multiple tasks and to understand more about the difference of the users' behavior under this circumstance.
 
   As we know, there are many different places known as public space, and users may behave differently in each specific place. Furthermore, in our study, we did not ask users to define any input actions to interact with tangible objects in public space, such as, tables or chairs in the cafe shop. We only made participants experience two types of smart glasses. Therefore, our user-defined game input set might not be suitable to be applied to games on other types of head-worn devices. Moreover, our participants were all literate Taiwanese adults; undoubtedly, children, elders, participants form other cultures, or uneducated participants would behave differently. That is to say, these issues are worthy of investigation, but exceed the range of our current work.
 
