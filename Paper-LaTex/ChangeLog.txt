@@ -1,9 +1,9 @@
 Change Log
-+Had added subsection "Contribution to non-gaming scenarios" in section “DISCUSSION”.
-+Had added subsection "Gestures in HCI” in section “RELATED WORK”, which referred related works AC and R1 suggest.
-+Had added more description in subsection "Preference Between Interaction Methods" to clarify why we focus on "touch" and "non-touch" interactions.
-+Had Fixed typos.
--Had removed the duplicated paragraph in section “CONCLUSION”.
--Had removed a paragraph about “Comparing existing game inputs with player experience” in section “RELATED WORK".
--Had Shortened the subsection “Limitation&next step"
--Had Replaced the figure "Users' game input familiarity" with short description in subsection “Participants".
++Added subsection "Contribution to non-gaming scenarios" in section “DISCUSSION”.
++Added subsection "Gestures in HCI” in section “RELATED WORK”, which now cites the related works AC and R1 suggested.
++Added a more detailed description in subsection "Preference Between Interaction Methods" to clarify why we focus on "touch" and "non-touch" interactions.
++Fixed typos.
+-Removed the duplicated paragraph in section “CONCLUSION”.
+-Removed a paragraph about “Comparing existing game inputs with player experience” in section “RELATED WORK".
+-Shortened the subsection “Limitation & next step"
+-Replaced the figure "Users' game input familiarity" with a short description in subsection “Participants".
